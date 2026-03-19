@@ -1,0 +1,749 @@
+1>------ Перестроение всех файлов начато: проект: Packer, Конфигурация: Release Win32 ------
+2>------ Перестроение всех файлов начато: проект: ClickerDll, Конфигурация: Release Win32 ------
+3>------ Перестроение всех файлов начато: проект: ProxyDll, Конфигурация: Release Win32 ------
+4>------ Перестроение всех файлов начато: проект: InjectorTest, Конфигурация: Release Win32 ------
+5>------ Перестроение всех файлов начато: проект: MUAutoClickerUI, Конфигурация: Release Any CPU ------
+1>Построение начато 19.03.2026 18:57:23.
+1>InitializeBuildStatus:
+1>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.unsuccessfulbuild", так как было задано "AlwaysCreate".
+2>Построение начато 19.03.2026 18:57:23.
+3>Построение начато 19.03.2026 18:57:23.
+1>ClCompile:
+4>Построение начато 19.03.2026 18:57:23.
+4>InitializeBuildStatus:
+4>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.unsuccessfulbuild", так как было задано "AlwaysCreate".
+1>  stdafx.cpp
+3>InitializeBuildStatus:
+3>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\\build\ProxyDll\Release\ProxyDll.unsuccessfulbuild", так как было задано "AlwaysCreate".
+3>ClCompile:
+3>  stdafx.cpp
+2>InitializeBuildStatus:
+2>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\\build\ClickerDll\Release\ClickerDll.unsuccessfulbuild", так как было задано "AlwaysCreate".
+2>ClCompile:
+2>  stdafx.cpp
+4>ClCompile:
+4>  InjectorTest.cpp
+1>c:\users\home\desktop\lordofmu3-master\src\packer\stdafx.h(11): warning C4164: strcpy: подставляемая функция не объявлена
+1>c:\users\home\desktop\lordofmu3-master\src\packer\stdafx.h(11): warning C4164: strcat: подставляемая функция не объявлена
+2>c:\users\home\desktop\lordofmu3-master\src\clickerdll\stdafx.h(14): warning C4164: strcpy: подставляемая функция не объявлена
+2>c:\users\home\desktop\lordofmu3-master\src\clickerdll\stdafx.h(14): warning C4164: strcat: подставляемая функция не объявлена
+5>Построение начато 19.03.2026 18:57:23.
+5>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3251: Не удалось разрешить сборку System.Xml.Linq. Целевая инфраструктура, требуемая этой сборкой (3.5), имеет более высокую версию, чем целевая инфраструктура проекта. Если эта ссылка необходима для кода, при компиляции могут возникнуть ошибки.
+5>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3251: Не удалось разрешить сборку System.Data.DataSetExtensions. Целевая инфраструктура, требуемая этой сборкой (3.5), имеет более высокую версию, чем целевая инфраструктура проекта. Если эта ссылка необходима для кода, при компиляции могут возникнуть ошибки.
+5>CoreResGen:
+5>  Не удалось прочесть файл состояния "obj\Release\MUAutoClickerUI.csproj.GenerateResource.Cache". Недопустимый формат файла состояния.
+5>  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\ResGen.exe /useSourcePath /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /compile Form1.resx,obj\Release\MUAutoClickerUI.Form1.resources Properties\Resources.resx,obj\Release\MUAutoClickerUI.Properties.Resources.resources 
+5>CoreCompile:
+5>  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /errorendlocation /preferreduilang:ru-RU /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug- /filealign:512 /optimize+ /out:obj\Release\MUAutoClickerUI.dll /resource:obj\Release\MUAutoClickerUI.Form1.resources /resource:obj\Release\MUAutoClickerUI.Properties.Resources.resources /target:library /utf8output Form1.cs Form1.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs ProtocolSettings.cs
+5>CopyFilesToOutputDirectory:
+5>  Копирование файла из "obj\Release\MUAutoClickerUI.dll" в "..\..\bin\Release\MUAutoClickerUI.dll".
+5>  MUAutoClickerUI -> C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\MUAutoClickerUI.dll
+5>
+5>Построение успешно завершено.
+5>
+5>Затраченное время: 00:00:00.49
+1>  Packer.cpp
+4>  stdafx.cpp
+4>  MemoryModule.c
+3>  AutoKillFilter.cpp
+4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.exe) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\InjectorTest.exe) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+4>Link:
+4>  Создание кода
+1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.exe) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\packer.exe) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+4>  Создание кода завершено
+3>  AutoLoginFilter.cpp
+1>Link:
+1>  Создание кода
+4>  InjectorTest.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.exe
+1>  Создание кода завершено
+4>FinalizeBuildStatus:
+4>  Файл "C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.unsuccessfulbuild" удаляется.
+4>  Обращение к "C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.lastbuildstate".
+4>
+4>Построение успешно завершено.
+4>
+4>Затраченное время: 00:00:01.42
+3>  AutoPickupFilter.cpp
+1>  Packer.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.exe
+1>FinalizeBuildStatus:
+1>  Файл "C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.unsuccessfulbuild" удаляется.
+1>  Обращение к "C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.lastbuildstate".
+1>
+1>Построение успешно завершено.
+1>
+1>Затраченное время: 00:00:01.98
+3>  AutoPotFilter.cpp
+2>  AdvSettingsDialog.cpp
+6>------ Перестроение всех файлов начато: проект: LordOfMU, Конфигурация: Release Win32 ------
+7>------ Перестроение всех файлов начато: проект: MACLocator, Конфигурация: Release Win32 ------
+2>  AutoClicker.cpp
+6>Построение начато 19.03.2026 18:57:25.
+7>Построение начато 19.03.2026 18:57:25.
+6>InitializeBuildStatus:
+6>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.unsuccessfulbuild", так как было задано "AlwaysCreate".
+7>InitializeBuildStatus:
+7>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.unsuccessfulbuild", так как было задано "AlwaysCreate".
+6>ClCompile:
+6>  stdafx.cpp
+7>ClCompile:
+7>  MemoryModule.c
+3>  AutosayFilter.cpp
+7>  ConnectionHandler.cpp
+3>  AutosayParser.cpp
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
+6>  Application.cpp
+3>  CharInfoFilter.cpp
+2>  BitmapFont.cpp
+7>  dllmain.cpp
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
+2>  BitmapFontFactory.cpp
+3>  CommandHandler.cpp
+3>  CommandInterface.cpp
+7>  ModuleLoader.cpp
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
+6>Application.cpp(44): warning C4996: 'CorBindToRuntimeEx': This API has been deprecated. Refer to http://go.microsoft.com/fwlink/?LinkId=143720 for more details.
+6>          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\MSCorEE.h(535): см. объявление "CorBindToRuntimeEx"
+6>  Debugger.cpp
+2>  ClickerJob.cpp
+6>  DebugMonitor.cpp
+3>  CommonPackets.cpp
+6>  Loader.cpp
+3>  EncDec.cpp
+3>  FastMoveFilter.cpp
+7>  stdafx.cpp
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
+2>  CreateDialogUtil.cpp
+2>  MuWindow.cpp
+6>  LordOfMU.cpp
+7>  WSPRedirect.cpp
+6>  MainWnd.cpp
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
+7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
+3>  GameCommands.cpp
+6>  DocHostUiHandler.cpp
+2>  RawImage.cpp
+2>  SettingsDlg.cpp
+2>  Создание кода...
+7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.dll) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\MACLocator.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+3>  GameProxy.cpp
+7>Link:
+7>     Создается библиотека C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.lib и объект C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.exp
+7>  Создание кода
+6>  HTMLWindow.cpp
+3>  InventoryManagerFilter.cpp
+7>  Создание кода завершено
+6>  OleClientSite.cpp
+6>  OleInPlaceSite.cpp
+6>  stdHelpers.cpp
+3>  LordOfMUdll.cpp
+7>  MACLocator.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.dll
+7>PostBuildEvent:
+7>  "packer.exe" не является внутренней или внешней
+7>  командой, исполняемой программой или пакетным файлом.
+7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: выход из команды "cd C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\
+7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: packer.exe /packall
+7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
+7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" с кодом 9009.
+7>
+7>СБОЙ построения.
+7>
+7>Затраченное время: 00:00:02.85
+6>  UrlHelper.cpp
+3>  MultihitPacketFilter.cpp
+6>  VariantHelper.cpp
+3>  Packet.cpp
+3>  PacketDecryptFilter.cpp
+6>  win32_Unicode.cpp
+3>  PacketEncryptFilter.cpp
+6>  MemoryModule.c
+2>  Component.cpp
+3>  Компиляция...
+3>  PacketFilter.cpp
+3>  PacketLogger.cpp
+3>  PacketParser.cpp
+6>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.exe) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\MUAutoClicker.exe.o) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+6>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.exe) не соответствует значению свойства выходного файла (.o) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+6>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(LordOfMU) не соответствует значению свойства выходного файла (MUAutoClicker.exe) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+3>  PacketQueue.cpp
+6>Link:
+6>  Создание кода
+3>  PacketType.cpp
+3>  ProtocolDetectFilter.cpp
+3>  ProxyBuilder.cpp
+2>  CompoundComponent.cpp
+3>  RecordRoutePacketFilter.cpp
+2>  Container.cpp
+3>  ReflectPacketFilter.cpp
+3>  ScriptCommands.cpp
+2>  FocusManager.cpp
+3>  ScriptParser.cpp
+2>  Font.cpp
+3>  ScriptProcessorFilter.cpp
+6>  Создание кода завершено
+2>  GlyphContext.cpp
+6>  LordOfMU.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.exe
+6>FinalizeBuildStatus:
+6>  Файл "C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.unsuccessfulbuild" удаляется.
+6>  Обращение к "C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.lastbuildstate".
+6>
+6>Построение успешно завершено.
+6>
+6>Затраченное время: 00:00:05.84
+3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\\build\ProxyDll\Release\ProxyDll.dll) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\MUEliteClicker.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(ProxyDll) не соответствует значению свойства выходного файла (MUEliteClicker) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+2>  Graphics.cpp
+2>  Gui.cpp
+3>Link:
+3>  Создание кода
+2>  Icon.cpp
+2>  SelectionManager.cpp
+2>  ThemeManager.cpp
+2>  BevelBorder.cpp
+2>  Border.cpp
+2>  LineBorder.cpp
+2>  AbstractButton.cpp
+2>  Button.cpp
+2>  CheckBox.cpp
+3>  Создание кода завершено
+3>  ProxyDll.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\\build\ProxyDll\Release\ProxyDll.dll
+3>PostBuildEvent:
+3>  Не удается найти C:\Users\Home\Desktop\LordOfMU3-master\build\ProxyDll\Release\ProxyDll.ilk
+3>  "packer.exe" не является внутренней или внешней
+3>  командой, исполняемой программой или пакетным файлом.
+3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: выход из команды "del "C:\Users\Home\Desktop\LordOfMU3-master\build\ProxyDll\Release\\ProxyDll.ilk" /Q /F
+3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: cd C:\Users\Home\Desktop\LordOfMU3-master\build\ProxyDll\Release\
+3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: packer.exe /packall
+3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
+3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" с кодом 9009.
+3>
+3>СБОЙ построения.
+3>
+3>Затраченное время: 00:00:12.06
+2>  Dialog.cpp
+2>  Frame.cpp
+2>  GLCanvas.cpp
+2>  Создание кода...
+2>  Компиляция...
+2>  Knob.cpp
+2>  Label.cpp
+2>  Menu.cpp
+2>  MenuBar.cpp
+2>  MenuItem.cpp
+2>  Panel.cpp
+2>  PopupMenu.cpp
+2>  ProgressBar.cpp
+2>  RadioButton.cpp
+2>  ScrollPane.cpp
+2>  Scrollbar.cpp
+2>  Scroller.cpp
+2>  Slider.cpp
+2>  TextField.cpp
+2>  TitleBar.cpp
+2>  ToggleButton.cpp
+2>  Window.cpp
+2>  ChangeEvent.cpp
+2>  ChangeListener.cpp
+2>  Event.cpp
+2>  Создание кода...
+2>  Компиляция...
+2>  EventListener.cpp
+2>  FocusEvent.cpp
+2>  FocusListener.cpp
+2>  ItemEvent.cpp
+2>  ItemListener.cpp
+2>  KeyEvent.cpp
+2>  KeyListener.cpp
+2>  MouseEvent.cpp
+2>  MouseListener.cpp
+2>  PropertyEvent.cpp
+2>  PropertyListener.cpp
+2>  WindowEvent.cpp
+2>  WindowListener.cpp
+2>  BorderLayout.cpp
+2>  FlowLayout.cpp
+2>  GridLayout.cpp
+2>  LayoutManager.cpp
+2>  PopupLayout.cpp
+2>  BasicTheme.cpp
+2>  DefaultTheme.cpp
+2>  Создание кода...
+2>  Компиляция...
+2>  ButtonTheme.cpp
+2>  CheckBoxTheme.cpp
+2>  ComponentTheme.cpp
+2>  DefaultScheme.cpp
+2>  DialogTheme.cpp
+2>  FrameTheme.cpp
+2>  GLCanvasTheme.cpp
+2>  LabelTheme.cpp
+2>  MenuBarTheme.cpp
+2>  MenuItemTheme.cpp
+2>  MenuTheme.cpp
+2>  MetalScheme.cpp
+2>  PopupMenuTheme.cpp
+2>  ProgressBarTheme.cpp
+2>  RadioButtonTheme.cpp
+2>  Scheme.cpp
+2>  ScrollbarTheme.cpp
+2>  ScrollerTheme.cpp
+2>  SliderTheme.cpp
+2>  TextFieldTheme.cpp
+2>  Создание кода...
+2>  Компиляция...
+2>  TitleBarTheme.cpp
+2>  ToggleButtonTheme.cpp
+2>  Util.cpp
+2>  RangeUtil.cpp
+2>  TextUtil.cpp
+2>UI\theme\TextUtil.cpp(411): error C2039: back_inserter: не является членом "std"
+2>UI\theme\TextUtil.cpp(411): error C3861: back_inserter: идентификатор не найден
+2>  Theme.cpp
+2>  ThemeComponent.cpp
+2>  ButtonTheme.cpp
+2>  CheckBoxTheme.cpp
+2>  ComponentTheme.cpp
+2>  DialogTheme.cpp
+2>  KnobTheme.cpp
+2>  LabelTheme.cpp
+2>  MenuBarTheme.cpp
+2>  MenuItemTheme.cpp
+2>  MenuTheme.cpp
+2>  PopupMenuTheme.cpp
+2>  RadioButtonTheme.cpp
+2>  SliderTheme.cpp
+2>  TextFieldTheme.cpp
+2>  Создание кода...
+2>  Компиляция...
+2>  TitleBarTheme.cpp
+2>  ToggleButtonTheme.cpp
+2>  ButtonGroup.cpp
+2>  Color.cpp
+2>  Dimension.cpp
+2>  DisplayList.cpp
+2>  GradientColor.cpp
+2>  Insets.cpp
+2>  Interpolator.cpp
+2>  LinearTimeInterpolator.cpp
+2>  Observable.cpp
+2>  Observer.cpp
+2>  Paint.cpp
+2>  Point.cpp
+2>  RangeHolder.cpp
+2>  Rectangle.cpp
+2>  TimeBasedInterpolator.cpp
+2>  Orientation.cpp
+2>  Создание кода...
+2>
+2>СБОЙ построения.
+2>
+2>Затраченное время: 00:00:41.74
+8>------ Перестроение всех файлов начато: проект: LspInstaller, Конфигурация: Release Win32 ------
+8>Построение начато 19.03.2026 18:58:05.
+8>InitializeBuildStatus:
+8>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\LspInstaller.unsuccessfulbuild", так как было задано "AlwaysCreate".
+8>ClCompile:
+8>  stdafx.cpp
+8>  ApiHook.cpp
+8>  ProcessUtil.cpp
+8>  StringUtil.cpp
+8>  dllmain.cpp
+8>  InstallerServices.cpp
+8>  MyGlobals.cpp
+8>  MyHooks.cpp
+8>  MyLoader.cpp
+8>  MyUtils.cpp
+8>  MemoryModule.c
+8>  decoder.c
+8>  distorm.c
+8>  instructions.c
+8>  insts.c
+8>  mnemonics.c
+8>  operands.c
+8>  prefix.c
+8>  textdefs.c
+8>  wstring.c
+8>  x86defs.c
+8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\LspInstaller.dll) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\LspInstaller.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+8>Link:
+8>  
+8>  Запуск 1-го прохода
+8>  
+8>  Поиск библиотек
+8>      Поиск minicrt.lib:
+8>        Найден _memcpy
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен minicrt.lib(memory.obj)
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+8>        Найден __imp__Beep@8
+8>          Имеются ссылки в ApiHook.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__HeapReAlloc@16
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__FreeLibrary@4
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__HeapAlloc@12
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__HeapFree@12
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__GetTickCount@0
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__VirtualFree@12
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__GetProcessHeap@0
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__IsBadReadPtr@8
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__lstrcmpiA@8
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__GetProcAddress@8
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__VirtualAlloc@16
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__LoadLibraryA@4
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__VirtualProtect@16
+8>          Имеются ссылки в MemoryModule.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__OpenProcess@12
+8>          Имеются ссылки в MyLoader.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__CloseHandle@4
+8>          Имеются ссылки в MyLoader.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__CreateRemoteThread@28
+8>          Имеются ссылки в MyLoader.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__WaitForSingleObject@8
+8>          Имеются ссылки в MyLoader.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__lstrcpyA@8
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__GetModuleHandleA@4
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__CreateFileA@28
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__GetFileSize@8
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__SetFilePointer@16
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__ReadFile@20
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__TerminateProcess@8
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __imp__GetCurrentProcess@0
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __IMPORT_DESCRIPTOR_KERNEL32
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден __NULL_IMPORT_DESCRIPTOR
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>        Найден KERNEL32_NULL_THUNK_DATA
+8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>          Загружен kernel32.lib(KERNEL32.dll)
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
+8>        Найден __imp__WindowFromDC@4
+8>          Имеются ссылки в MyHooks.obj
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден __imp__GetWindowRect@8
+8>          Имеются ссылки в MyHooks.obj
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден __imp__GetShellWindow@0
+8>          Имеются ссылки в MyHooks.obj
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден __imp__FindWindowA@8
+8>          Имеются ссылки в MyLoader.obj
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден __imp__GetWindowThreadProcessId@8
+8>          Имеются ссылки в MyLoader.obj
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден __imp__SetForegroundWindow@4
+8>          Имеются ссылки в MyLoader.obj
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден __imp__GetWindowLongA@8
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден __imp__IsWindow@4
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден __imp__GetWindowTextW@12
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден __IMPORT_DESCRIPTOR_USER32
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Загружен user32.lib(USER32.dll)
+8>        Найден USER32_NULL_THUNK_DATA
+8>          Имеются ссылки в user32.lib(USER32.dll)
+8>          Загружен user32.lib(USER32.dll)
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\psapi.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
+8>      Поиск minicrt.lib:
+8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
+8>  
+8>  Поиск библиотек завершен
+8>  
+8>  1-ый проход завершен
+8>  
+8>  Создание кода
+8>  Создание кода завершено
+8>  
+8>  Поиск библиотек
+8>      Поиск minicrt.lib:
+8>        Найден __chkstk
+8>          Имеются ссылки в MyUtils.obj
+8>          Загружен minicrt.lib(chkstk.obj)
+8>  
+8>  Поиск библиотек завершен
+8>  
+8>  Обработка параметров /ORDER
+8>      Объекты внешнего кода не перечислены в файле параметра /ORDER:
+8>  
+8>          GetModuleHandleA@4		; kernel32.lib(KERNEL32.dll)
+8>          CloseHandle@4		; kernel32.lib(KERNEL32.dll)
+8>          lstrcmpiA@8		; kernel32.lib(KERNEL32.dll)
+8>          SetFilePointer@16		; kernel32.lib(KERNEL32.dll)
+8>          VirtualProtect@16		; kernel32.lib(KERNEL32.dll)
+8>          memset		; minicrt.lib(memory.obj)
+8>          VirtualFree@12		; kernel32.lib(KERNEL32.dll)
+8>          GetProcAddress@8		; kernel32.lib(KERNEL32.dll)
+8>          GetWindowLongA@8		; user32.lib(USER32.dll)
+8>          CreateFileA@28		; kernel32.lib(KERNEL32.dll)
+8>          GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+8>          OpenProcess@12		; kernel32.lib(KERNEL32.dll)
+8>          GetWindowTextW@12		; user32.lib(USER32.dll)
+8>          memmove_s		; minicrt.lib(memory.obj)
+8>          IsBadReadPtr@8		; kernel32.lib(KERNEL32.dll)
+8>          WindowFromDC@4		; user32.lib(USER32.dll)
+8>          LoadLibraryA@4		; kernel32.lib(KERNEL32.dll)
+8>          VirtualAlloc@16		; kernel32.lib(KERNEL32.dll)
+8>          FindWindowA@8		; user32.lib(USER32.dll)
+8>          memmove		; minicrt.lib(memory.obj)
+8>          memcmp		; minicrt.lib(memory.obj)
+8>          memcpy		; minicrt.lib(memory.obj)
+8>          GetProcessHeap@0		; kernel32.lib(KERNEL32.dll)
+8>          ReadFile@20		; kernel32.lib(KERNEL32.dll)
+8>          HeapFree@12		; kernel32.lib(KERNEL32.dll)
+8>          TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+8>          memcpy_s		; minicrt.lib(memory.obj)
+8>          IsWindow@4		; user32.lib(USER32.dll)
+8>          GetWindowThreadProcessId@8		; user32.lib(USER32.dll)
+8>          GetFileSize@8		; kernel32.lib(KERNEL32.dll)
+8>          GetTickCount@0		; kernel32.lib(KERNEL32.dll)
+8>          HeapAlloc@12		; kernel32.lib(KERNEL32.dll)
+8>          HeapReAlloc@16		; kernel32.lib(KERNEL32.dll)
+8>          GetWindowRect@8		; user32.lib(USER32.dll)
+8>          lstrcpyA@8		; kernel32.lib(KERNEL32.dll)
+8>          SetForegroundWindow@4		; user32.lib(USER32.dll)
+8>          Beep@8		; kernel32.lib(KERNEL32.dll)
+8>          GetShellWindow@0		; user32.lib(USER32.dll)
+8>          CreateRemoteThread@28		; kernel32.lib(KERNEL32.dll)
+8>          WaitForSingleObject@8		; kernel32.lib(KERNEL32.dll)
+8>          FreeLibrary@4		; kernel32.lib(KERNEL32.dll)
+8>  
+8>  Завершена обработка параметров /ORDER
+8>      Удален "`string'" (??_C@_0DI@IBELFNGK@?$LI?$CL?$AA?$AA?$AA?$IL?$AA?$ID?x?$AAu?$BI?$LI3?$AA?$AA?$AA?$IL?$AAP?$LI?1?$AA?$AA?$AA?$PP?$BA?$ID?D?$AE?$IJ?$AF@) из ApiHook.obj
+8>      Удален "`string'" (??_C@_0BB@GOHLODMA@EnumChildWindows?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0BC@HKDKPPPE@EnumThreadWindows?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0M@LKGMJDJK@EnumWindows?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0M@HKFEMMNM@FindWindowA?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0M@GGMMHJAL@FindWindowW?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0O@IDLNKOCH@FindWindowExA?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0O@JPCFBLPA@FindWindowExW?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_09CGMHJDCO@GetWindow?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0BI@BLIAECLN@RegisterShellHookWindow?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0BA@OAPIABOD@WindowFromPoint?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0BF@DOHHKAPK@ChildWindowFromPoint?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_0N@CJDAKOMP@GetTopWindow?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_1BG@KNJGGOFB@?$AAw?$AAs?$AA2?$AA_?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@) из MyLoader.obj
+8>      Удален "`string'" (??_C@_1BI@HEAIIGKD@?$AAm?$AAs?$AAw?$AAs?$AAo?$AAc?$AAk?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@) из MyLoader.obj
+8>      Удален "private: static unsigned long const CPackUtil::s_packMagic" (?s_packMagic@CPackUtil@@0KB) из MyUtils.obj
+8>      Удален "`string'" (??_C@_05JOBEKLPN@BYTE?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_05GAGGPBM@WORD?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_06JKOMEAKL@DWORD?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_06KPAKPDMC@QWORD?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_06GFCABIIE@TBYTE?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_07PKJDDPMC@DQWORD?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_06JMOFLNKF@YWORD?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_03CMFHJCIF@DB?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_05IMOOOKID@LOCK?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_04COPMDGFE@REP?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_06DODLCMMB@REPNZ?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_02KEGNLNML@?0?5?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_07GPPNHKOM@?5?$DLTAKEN?$AA@) из distorm.obj
+8>      Удален "`string'" (??_C@_0M@KOOLNINB@?5?$DLNOT?5TAKEN?$AA@) из distorm.obj
+8>      Удален "public: __thiscall CPackUtil::CPackUtil(void)" (??0CPackUtil@@QAE@XZ) из MyUtils.obj
+8>      Удален "public: int __thiscall CPackUtil::GetPackedFileSize(int)" (?GetPackedFileSize@CPackUtil@@QAEHH@Z) из MyUtils.obj
+8>      Удален "public: bool __thiscall CPackUtil::DecodeData(char *,int,struct CPackUtil::FileInfo const &)" (?DecodeData@CPackUtil@@QAE_NPADHABUFileInfo@1@@Z) из MyUtils.obj
+8>      Удален "protected: bool __thiscall CPackUtil::CheckMagic(long &,void *)" (?CheckMagic@CPackUtil@@IAE_NAAJPAX@Z) из MyUtils.obj
+8>      Удален "protected: bool __thiscall CPackUtil::ReadPackInfo(long &,void *,struct CPackUtil::PackInfo &)" (?ReadPackInfo@CPackUtil@@IAE_NAAJPAXAAUPackInfo@1@@Z) из MyUtils.obj
+8>      Удален _prefixes_track_unused из prefix.obj
+8>      Удален _memcmp из minicrt.lib(memory.obj)
+8>      Удален _memcpy_s из minicrt.lib(memory.obj)
+8>      Удален _memmove из minicrt.lib(memory.obj)
+8>      Удален _memmove_s из minicrt.lib(memory.obj)
+8>      Удален _Beep@8 из kernel32.lib(KERNEL32.dll)
+8>      Удален _HeapReAlloc@16 из kernel32.lib(KERNEL32.dll)
+8>      Удален _FreeLibrary@4 из kernel32.lib(KERNEL32.dll)
+8>      Удален _HeapAlloc@12 из kernel32.lib(KERNEL32.dll)
+8>      Удален _HeapFree@12 из kernel32.lib(KERNEL32.dll)
+8>      Удален _GetTickCount@0 из kernel32.lib(KERNEL32.dll)
+8>      Удален _VirtualFree@12 из kernel32.lib(KERNEL32.dll)
+8>      Удален _GetProcessHeap@0 из kernel32.lib(KERNEL32.dll)
+8>      Удален _IsBadReadPtr@8 из kernel32.lib(KERNEL32.dll)
+8>      Удален _lstrcmpiA@8 из kernel32.lib(KERNEL32.dll)
+8>      Удален _GetProcAddress@8 из kernel32.lib(KERNEL32.dll)
+8>      Удален _VirtualAlloc@16 из kernel32.lib(KERNEL32.dll)
+8>      Удален _LoadLibraryA@4 из kernel32.lib(KERNEL32.dll)
+8>      Удален _VirtualProtect@16 из kernel32.lib(KERNEL32.dll)
+8>      Удален _OpenProcess@12 из kernel32.lib(KERNEL32.dll)
+8>      Удален _CloseHandle@4 из kernel32.lib(KERNEL32.dll)
+8>      Удален _CreateRemoteThread@28 из kernel32.lib(KERNEL32.dll)
+8>      Удален _WaitForSingleObject@8 из kernel32.lib(KERNEL32.dll)
+8>      Удален _lstrcpyA@8 из kernel32.lib(KERNEL32.dll)
+8>      Удален _GetModuleHandleA@4 из kernel32.lib(KERNEL32.dll)
+8>      Удален _CreateFileA@28 из kernel32.lib(KERNEL32.dll)
+8>      Удален _GetFileSize@8 из kernel32.lib(KERNEL32.dll)
+8>      Удален _SetFilePointer@16 из kernel32.lib(KERNEL32.dll)
+8>      Удален _ReadFile@20 из kernel32.lib(KERNEL32.dll)
+8>      Удален _TerminateProcess@8 из kernel32.lib(KERNEL32.dll)
+8>      Удален _GetCurrentProcess@0 из kernel32.lib(KERNEL32.dll)
+8>      Удален _WindowFromDC@4 из user32.lib(USER32.dll)
+8>      Удален _GetWindowRect@8 из user32.lib(USER32.dll)
+8>      Удален _GetShellWindow@0 из user32.lib(USER32.dll)
+8>      Удален _FindWindowA@8 из user32.lib(USER32.dll)
+8>      Удален _GetWindowThreadProcessId@8 из user32.lib(USER32.dll)
+8>      Удален _SetForegroundWindow@4 из user32.lib(USER32.dll)
+8>      Удален _GetWindowLongA@8 из user32.lib(USER32.dll)
+8>      Удален _IsWindow@4 из user32.lib(USER32.dll)
+8>      Удален _GetWindowTextW@12 из user32.lib(USER32.dll)
+8>  Запуск 2-го прохода
+8>        CIL library( CIL module)
+8>       minicrt.lib(chkstk.obj)
+8>       minicrt.lib(memory.obj)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       kernel32.lib(KERNEL32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>       user32.lib(USER32.dll)
+8>  2-ой проход завершен
+8>  LspInstaller.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\LspInstaller.dll
+8>PostBuildEvent:
+8>   Том в устройстве C не имеет метки.
+8>   Серийный номер тома: 8021-01CB
+8>  
+8>   Содержимое папки C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release
+8>  
+8>  Файл не найден
+8>  "packer.exe" не является внутренней или внешней
+8>  командой, исполняемой программой или пакетным файлом.
+8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: выход из команды "cmd /c dir "C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\LspInstaller.dll"
+8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: cd C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\
+8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: packer.exe /packall
+8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
+8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" с кодом 9009.
+8>
+8>СБОЙ построения.
+8>
+8>Затраченное время: 00:00:02.35
+========== Перестроение всех: успешно: 4, с ошибками: 4, пропущено: 0 ==========
