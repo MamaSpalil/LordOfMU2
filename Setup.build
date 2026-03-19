@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project name="Lord Of MU" default="buildAll">
 
-	<property name="devenv" value="${environment::get-variable('VS90COMNTOOLS')}..\IDE\devenv.com"/>	
+	<property name="devenv" value="${environment::get-variable('VS100COMNTOOLS')}..\IDE\devenv.com"/>	
   <property name="act_version_h" value="src\_Shared\version.h"/>
 	<property name="solution_filename" value="LordOfMU.sln"/>
 	<property name="executable_name" value="MUAutoClicker.exe"/>
