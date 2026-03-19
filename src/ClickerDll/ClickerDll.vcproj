@@ -2197,6 +2197,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2205,6 +2206,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2217,6 +2219,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2225,6 +2228,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2237,6 +2241,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2245,6 +2250,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2257,6 +2263,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2265,6 +2272,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2277,6 +2285,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2285,6 +2294,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2297,6 +2307,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2305,6 +2316,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2317,6 +2329,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2325,6 +2338,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2337,6 +2351,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2345,6 +2360,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2357,6 +2373,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2365,6 +2382,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2377,6 +2395,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2385,6 +2404,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2397,6 +2417,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2405,6 +2426,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2417,6 +2439,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2425,6 +2448,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2437,6 +2461,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2445,6 +2470,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2457,6 +2483,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2465,6 +2492,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
@@ -2477,6 +2505,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 				<FileConfiguration
@@ -2485,6 +2514,7 @@
 					<Tool
 						Name="VCCLCompilerTool"
 						UsePrecompiledHeader="0"
+						ObjectFile="$(IntDir)\basic\"
 					/>
 				</FileConfiguration>
 			</File>
