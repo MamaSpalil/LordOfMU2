@@ -217,8 +217,8 @@ private:
 				"RGlzcGF0Y2hNZXNzYWdlQQ==",							// 0x00020007 - DispatchMessageA
 				"RGlzcGF0Y2hNZXNzYWdlVw==",							// 0x00020008 - DispatchMessageW
 				"Qzpc",												// 0x00020009 - "C:\"
-				"aHR0cDovL211b25saW5lLmt0ZW1lbGtvdi5pbmZvL3V0aWwvdjIucGhwP2FyZzE9",				// 0x0002000A - http://muonline.ktemelkov.info/util/v2.php?arg1=
-				"aHR0cDovL211b25saW5lLmt0ZW1lbGtvdi5pbmZvL3V0aWwvdjIucGhwP2FyZzI9MSZhcmcxPQ==", // 0x0002000B - http://muonline.ktemelkov.info/util/v2.php?arg2=1&arg1=
+				"",				// 0x0002000A - (removed external license URL)
+				"", // 0x0002000B - (removed external license URL)
 				"X19NdUF1dG9DbGlja2VyRXhlY011dGV4X18=",				// 0x0002000C - __MuAutoClickerExecMutex__
 				"JTA4WC0lMDJYLSUwMlgtJTAyWC0lMDJYLSUwMlgtJTAyWA==", // 0x0002000D - %08X-%02X-%02X-%02X-%02X-%02X-%02X
 				"TVVBdXRvQ2xpY2tlci5leGU=",							// 0x0002000E - MUAutoClicker.exe

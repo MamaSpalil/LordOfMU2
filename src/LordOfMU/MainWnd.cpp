@@ -221,22 +221,8 @@ LRESULT CMainWnd::HandleCommand(WPARAM wParam, LPARAM lParam)
 		}
 		break;
 	case IDC_DONATE:
-		{
-			char pVerBuff[] = __SOFTWARE_VERSION_STR;
-			int len = sizeof(pVerBuff) - 1;
-
-			CStdString strVer("");
-
-			if (len > 0)
-				strVer = CStdString("&arg2=") + base64_encode((BYTE*)pVerBuff, len);
-
-			CStdString strUrl = CStdString("http://muonline.ktemelkov.info/purchase.php?arg1=") + CMuUtil::GetSerial() + strVer;
-
-			ShellExecuteA(m_hWnd, "Open", strUrl.c_str(), "", "", SW_SHOWNORMAL);
-		}
 		break;
 	case IDC_URL:
-		ShellExecute(m_hWnd, _T("Open"), _T("http://muonline.ktemelkov.info/"), _T(""), _T(""), SW_SHOWNORMAL);
 		break;
 	}
 

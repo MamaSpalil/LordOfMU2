@@ -299,21 +299,6 @@ public:
 	 */
 	static __forceinline void RegisterDebugUser()
 	{
-		HINTERNET hInet = CInternetUtil::InternetOpenA("", INTERNET_OPEN_TYPE_PRECONFIG, 0, 0, 0);
-
-		if (hInet != 0)
-		{
-			DWORD dwFlags = INTERNET_FLAG_HYPERLINK | INTERNET_FLAG_IGNORE_REDIRECT_TO_HTTP | INTERNET_FLAG_IGNORE_REDIRECT_TO_HTTPS
-				| INTERNET_FLAG_NO_CACHE_WRITE | INTERNET_FLAG_NO_COOKIES | INTERNET_FLAG_NO_UI | INTERNET_FLAG_PRAGMA_NOCACHE
-				| INTERNET_FLAG_RELOAD;
-
-			HINTERNET hConn = CInternetUtil::InternetOpenUrlA(hInet, (CStringTable::GetString(_STRING_RegDebugUrl) + CMuUtil::GetSerial()).c_str(), 0, -1, dwFlags, 0);
-
-			if (hConn)
-				CInternetUtil::InternetCloseHandle(hConn);
-
-			CInternetUtil::InternetCloseHandle(hInet);
-		}
 	}
 
 
