@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Disasm"/>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApiHook.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InstallerServices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Shared\MemoryModule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGlobals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHooks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\decoder.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\distorm.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\instructions.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\insts.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\mnemonics.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\operands.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\prefix.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\textdefs.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\wstring.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+    <ClCompile Include="disasm\x86defs.c">
+      <Filter>Disasm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApiHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstallerServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\MemoryModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGlobals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHooks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\StdString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\config.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\decoder.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\distorm.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\instructions.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\insts.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\mnemonics.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\operands.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\prefix.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\textdefs.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\wstring.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+    <ClInclude Include="disasm\x86defs.h">
+      <Filter>Disasm</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
