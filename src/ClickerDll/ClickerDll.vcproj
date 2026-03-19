@@ -211,7 +211,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="del &quot;$(TargetDir)\$(TargetName).ilk&quot; /Q /F&#x0D;&#x0A;cd $(TargetDir)&#x0D;&#x0A;packer.exe /packall&#x0D;&#x0A;"
+				CommandLine="del &quot;$(TargetDir)\$(TargetName).ilk&quot; /Q /F&#x0D;&#x0A;cd $(TargetDir)&#x0D;&#x0A;&quot;$(SolutionDir)bin\$(ConfigurationName)\packer.exe&quot; /packall&#x0D;&#x0A;"
 			/>
 		</Configuration>
 	</Configurations>

@@ -108,7 +108,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="cmd /c dir &quot;$(TargetPath)&quot;&#x0D;&#x0A;cd $(TargetDir)&#x0D;&#x0A;packer.exe /packall&#x0D;&#x0A;"
+				CommandLine="cmd /c dir &quot;$(TargetPath)&quot;&#x0D;&#x0A;cd $(TargetDir)&#x0D;&#x0A;&quot;$(SolutionDir)bin\$(ConfigurationName)\packer.exe&quot; /packall&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -221,7 +221,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="cmd /c dir &quot;$(TargetPath)&quot;&#x0D;&#x0A;cd $(TargetDir)&#x0D;&#x0A;packer.exe /packall&#x0D;&#x0A;"
+				CommandLine="cmd /c dir &quot;$(TargetPath)&quot;&#x0D;&#x0A;cd $(TargetDir)&#x0D;&#x0A;&quot;$(SolutionDir)bin\$(ConfigurationName)\packer.exe&quot; /packall&#x0D;&#x0A;"
 			/>
 		</Configuration>
 	</Configurations>

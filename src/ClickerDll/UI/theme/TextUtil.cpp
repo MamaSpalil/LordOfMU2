@@ -30,6 +30,7 @@
 #include "../Graphics.h"
 #include "../Font.h"
 #include "../Icon.h"
+#include <iterator>
 
 namespace ui
 {
