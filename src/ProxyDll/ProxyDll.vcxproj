@@ -167,7 +167,7 @@
     <Midl>
       <PreprocessorDefinitions>_DEBUG</PreprocessorDefinitions>
       <MkTypLibCompatible>false</MkTypLibCompatible>
-      <TargetEnvironment>Win32</TargetEnvironment>
+      <TargetEnvironment>X64</TargetEnvironment>
       <ValidateAllParameters>false</ValidateAllParameters>
       <HeaderFileName>LordOfMUdll.h</HeaderFileName>
       <InterfaceIdentifierFileName>LordOfMUdll_i.c</InterfaceIdentifierFileName>
@@ -263,7 +263,7 @@ cd $(TargetDir)
     <Midl>
       <PreprocessorDefinitions>NDEBUG</PreprocessorDefinitions>
       <MkTypLibCompatible>false</MkTypLibCompatible>
-      <TargetEnvironment>Win32</TargetEnvironment>
+      <TargetEnvironment>X64</TargetEnvironment>
       <ValidateAllParameters>false</ValidateAllParameters>
       <HeaderFileName>LordOfMUdll.h</HeaderFileName>
       <InterfaceIdentifierFileName>LordOfMUdll_i.c</InterfaceIdentifierFileName>

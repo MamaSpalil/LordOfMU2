@@ -162,7 +162,7 @@
     <Midl>
       <PreprocessorDefinitions>_DEBUG</PreprocessorDefinitions>
       <MkTypLibCompatible>false</MkTypLibCompatible>
-      <TargetEnvironment>Win32</TargetEnvironment>
+      <TargetEnvironment>X64</TargetEnvironment>
       <ValidateAllParameters>false</ValidateAllParameters>
       <HeaderFileName>AutoClicker.h</HeaderFileName>
       <InterfaceIdentifierFileName>AutoClicker_i.c</InterfaceIdentifierFileName>
@@ -247,7 +247,7 @@ cd $(TargetDir)
     <Midl>
       <PreprocessorDefinitions>NDEBUG</PreprocessorDefinitions>
       <MkTypLibCompatible>false</MkTypLibCompatible>
-      <TargetEnvironment>Win32</TargetEnvironment>
+      <TargetEnvironment>X64</TargetEnvironment>
       <ValidateAllParameters>false</ValidateAllParameters>
       <HeaderFileName>AutoClicker.h</HeaderFileName>
       <InterfaceIdentifierFileName>AutoClicker_i.c</InterfaceIdentifierFileName>
