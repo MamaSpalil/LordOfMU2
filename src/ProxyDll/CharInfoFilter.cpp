@@ -56,7 +56,7 @@ int CCharInfoFilter::FilterRecvPacket(CPacket& pkt, CFilterContext& context)
 		CGameServerHelloPacket& pktHelo = (CGameServerHelloPacket&)pkt;
 		m_wPlayerId = pktHelo.GetPlayerId();
 
-		CServerMessagePacket pkt2(">> %s ", CT2A(__SOFTWARE_VERSION_ABOUT));
+		CServerMessagePacket pkt2(">> %s ", (LPCSTR)CT2A(__SOFTWARE_VERSION_ABOUT));
 		CServerMessagePacket pkt3(">> %s ", __SOFTWARE_COPYRIGHT);
 
 		GetProxy()->recv_direct(pkt2);
