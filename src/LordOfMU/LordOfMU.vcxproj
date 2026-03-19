@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{A65973B9-F0E0-44E0-B532-0BDD01C592C0}</ProjectGuid>
+    <RootNamespace>LordOfMU</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props"/>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props"/>
+  <ImportGroup Label="ExtensionSettings"/>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Label="LocalAppDataPlatform" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Label="LocalAppDataPlatform" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Label="LocalAppDataPlatform" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"/>
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Label="LocalAppDataPlatform" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')"/>
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros"/>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)build\$(ProjectName)\$(ConfigurationName)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(ProjectName)\$(ConfigurationName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>MUAutoClicker</TargetName>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)build\$(ProjectName)\$(ConfigurationName)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(ProjectName)\$(ConfigurationName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>MUAutoClicker</TargetName>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)build\$(ProjectName)\$(ConfigurationName)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(ProjectName)\$(ConfigurationName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>MUAutoClicker</TargetName>
+    <TargetExt>.exe.o</TargetExt>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)build\$(ProjectName)\$(ConfigurationName)\</OutDir>
+    <IntDir>$(SolutionDir)build\$(ProjectName)\$(ConfigurationName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <TargetName>MUAutoClicker</TargetName>
+    <TargetExt>.exe.o</TargetExt>
+    <GenerateManifest>false</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>ui2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcmtd.lib LIBCPMTd.LIB libvcruntimed.lib libucrtd.lib kernel32.lib user32.lib psapi.lib ole32.lib comctl32.lib MSCorEE.lib Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)bin\$(ConfigurationName)\MUAutoClicker.exe</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)\$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\_Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>ui2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcmtd.lib LIBCPMTd.LIB libvcruntimed.lib libucrtd.lib kernel32.lib user32.lib psapi.lib ole32.lib comctl32.lib MSCorEE.lib Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)bin\$(ConfigurationName)\MUAutoClicker.exe</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)\$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\_Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>ui2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcmt.lib LIBCPMT.LIB libvcruntime.lib libucrt.lib kernel32.lib user32.lib psapi.lib ole32.lib comctl32.lib MSCorEE.lib Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)bin\$(ConfigurationName)\MUAutoClicker.exe.o</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)\$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <UACExecutionLevel>requireAdministrator</UACExecutionLevel>
+      <UACUIAccess>true</UACUIAccess>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\_Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>1033</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <AdditionalIncludeDirectories>ui2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <AssemblerOutput>AssemblyAndSourceCode</AssemblerOutput>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>libcmt.lib LIBCPMT.LIB libvcruntime.lib libucrt.lib kernel32.lib user32.lib psapi.lib ole32.lib comctl32.lib MSCorEE.lib Iphlpapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)bin\$(ConfigurationName)\MUAutoClicker.exe.o</OutputFile>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)\$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX64</TargetMachine>
+      <UACExecutionLevel>requireAdministrator</UACExecutionLevel>
+      <UACUIAccess>true</UACUIAccess>
+    </Link>
+    <ResourceCompile>
+      <AdditionalIncludeDirectories>..\_Shared;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Culture>1033</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp"/>
+    <ClCompile Include="Debugger.cpp"/>
+    <ClCompile Include="DebugMonitor.cpp"/>
+    <ClCompile Include="Loader.cpp"/>
+    <ClCompile Include="LordOfMU.cpp"/>
+    <ClCompile Include="MainWnd.cpp"/>
+    <ClCompile Include="..\_Shared\MemoryModule.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="ui2\DocHostUiHandler.cpp"/>
+    <ClCompile Include="ui2\HTMLWindow.cpp"/>
+    <ClCompile Include="ui2\OleClientSite.cpp"/>
+    <ClCompile Include="ui2\OleInPlaceSite.cpp"/>
+    <ClCompile Include="ui2\stdHelpers.cpp"/>
+    <ClCompile Include="ui2\UrlHelper.cpp"/>
+    <ClCompile Include="ui2\VariantHelper.cpp"/>
+    <ClCompile Include="ui2\win32_Unicode.cpp"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\_Shared\ApiTable.h"/>
+    <ClInclude Include="..\_Shared\base64.h"/>
+    <ClInclude Include="..\_Shared\KernelUtil.h"/>
+    <ClInclude Include="..\_Shared\LspUtil.h"/>
+    <ClInclude Include="..\_Shared\OleUtil.h"/>
+    <ClInclude Include="..\_Shared\PackUtil.h"/>
+    <ClInclude Include="..\_Shared\PathUtil.h"/>
+    <ClInclude Include="..\_Shared\ProtocolSettings.h"/>
+    <ClInclude Include="..\_Shared\ShellUtil.h"/>
+    <ClInclude Include="..\_Shared\StringTable.h"/>
+    <ClInclude Include="..\_Shared\WinsockUtil.h"/>
+    <ClInclude Include="Application.h"/>
+    <ClInclude Include="Debugger.h"/>
+    <ClInclude Include="DebugMonitor.h"/>
+    <ClInclude Include="..\_Shared\InjectUtil.h"/>
+    <ClInclude Include="InstanceLock.h"/>
+    <ClInclude Include="..\_Shared\InternetUtil.h"/>
+    <ClInclude Include="Loader.h"/>
+    <ClInclude Include="LordOfMU.h"/>
+    <ClInclude Include="MainWnd.h"/>
+    <ClInclude Include="..\_Shared\MemoryModule.h"/>
+    <ClInclude Include="Resource.h"/>
+    <ClInclude Include="stdafx.h"/>
+    <ClInclude Include="targetver.h"/>
+    <ClInclude Include="..\_Shared\UserUtil.h"/>
+    <ClInclude Include="ui2\DocHostUiHandler.h"/>
+    <ClInclude Include="ui2\HTMLWindow.h"/>
+    <ClInclude Include="ui2\OleClientSite.h"/>
+    <ClInclude Include="ui2\OleInPlaceFrame.h"/>
+    <ClInclude Include="ui2\OleInPlaceSite.h"/>
+    <ClInclude Include="ui2\stdHelpers.h"/>
+    <ClInclude Include="ui2\Storage.h"/>
+    <ClInclude Include="ui2\UrlHelper.h"/>
+    <ClInclude Include="ui2\VariantHelper.h"/>
+    <ClInclude Include="ui2\win32_Unicode.h"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LordOfMU.rc"/>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.bmp"/>
+    <Image Include="donate.bmp"/>
+    <Image Include="LordOfMU.ico"/>
+    <Image Include="version.rc2"/>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rt_manif.manifest"/>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
+  <ImportGroup Label="ExtensionTargets"/>
+</Project>

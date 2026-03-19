@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI"/>
+    <Filter Include="_Shared"/>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debugger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LordOfMU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Shared\MemoryModule.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ui2\DocHostUiHandler.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui2\HTMLWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui2\OleClientSite.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui2\OleInPlaceSite.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui2\stdHelpers.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui2\UrlHelper.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui2\VariantHelper.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ui2\win32_Unicode.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\_Shared\ApiTable.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\base64.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\KernelUtil.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\LspUtil.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\OleUtil.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\PackUtil.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\PathUtil.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\ProtocolSettings.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\ShellUtil.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\StringTable.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\WinsockUtil.h">
+      <Filter>_Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Debugger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\InjectUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InstanceLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\InternetUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LordOfMU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\MemoryModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Shared\UserUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\DocHostUiHandler.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\HTMLWindow.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\OleClientSite.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\OleInPlaceFrame.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\OleInPlaceSite.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\stdHelpers.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\Storage.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\UrlHelper.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\VariantHelper.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ui2\win32_Unicode.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LordOfMU.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="donate.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="LordOfMU.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="version.rc2">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="rt_manif.manifest"/>
+  </ItemGroup>
+</Project>
