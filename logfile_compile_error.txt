@@ -1,749 +1,1309 @@
-1>------ Перестроение всех файлов начато: проект: Packer, Конфигурация: Release Win32 ------
-2>------ Перестроение всех файлов начато: проект: ClickerDll, Конфигурация: Release Win32 ------
-3>------ Перестроение всех файлов начато: проект: ProxyDll, Конфигурация: Release Win32 ------
-4>------ Перестроение всех файлов начато: проект: InjectorTest, Конфигурация: Release Win32 ------
-5>------ Перестроение всех файлов начато: проект: MUAutoClickerUI, Конфигурация: Release Any CPU ------
-1>Построение начато 19.03.2026 18:57:23.
-1>InitializeBuildStatus:
-1>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.unsuccessfulbuild", так как было задано "AlwaysCreate".
-2>Построение начато 19.03.2026 18:57:23.
-3>Построение начато 19.03.2026 18:57:23.
-1>ClCompile:
-4>Построение начато 19.03.2026 18:57:23.
-4>InitializeBuildStatus:
-4>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.unsuccessfulbuild", так как было задано "AlwaysCreate".
-1>  stdafx.cpp
-3>InitializeBuildStatus:
-3>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\\build\ProxyDll\Release\ProxyDll.unsuccessfulbuild", так как было задано "AlwaysCreate".
-3>ClCompile:
-3>  stdafx.cpp
-2>InitializeBuildStatus:
-2>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\\build\ClickerDll\Release\ClickerDll.unsuccessfulbuild", так как было задано "AlwaysCreate".
-2>ClCompile:
-2>  stdafx.cpp
-4>ClCompile:
-4>  InjectorTest.cpp
-1>c:\users\home\desktop\lordofmu3-master\src\packer\stdafx.h(11): warning C4164: strcpy: подставляемая функция не объявлена
-1>c:\users\home\desktop\lordofmu3-master\src\packer\stdafx.h(11): warning C4164: strcat: подставляемая функция не объявлена
-2>c:\users\home\desktop\lordofmu3-master\src\clickerdll\stdafx.h(14): warning C4164: strcpy: подставляемая функция не объявлена
-2>c:\users\home\desktop\lordofmu3-master\src\clickerdll\stdafx.h(14): warning C4164: strcat: подставляемая функция не объявлена
-5>Построение начато 19.03.2026 18:57:23.
-5>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3251: Не удалось разрешить сборку System.Xml.Linq. Целевая инфраструктура, требуемая этой сборкой (3.5), имеет более высокую версию, чем целевая инфраструктура проекта. Если эта ссылка необходима для кода, при компиляции могут возникнуть ошибки.
-5>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1605,5): warning MSB3251: Не удалось разрешить сборку System.Data.DataSetExtensions. Целевая инфраструктура, требуемая этой сборкой (3.5), имеет более высокую версию, чем целевая инфраструктура проекта. Если эта ссылка необходима для кода, при компиляции могут возникнуть ошибки.
-5>CoreResGen:
-5>  Не удалось прочесть файл состояния "obj\Release\MUAutoClickerUI.csproj.GenerateResource.Cache". Недопустимый формат файла состояния.
-5>  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin\ResGen.exe /useSourcePath /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /r:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /compile Form1.resx,obj\Release\MUAutoClickerUI.Form1.resources Properties\Resources.resx,obj\Release\MUAutoClickerUI.Properties.Resources.resources 
-5>CoreCompile:
-5>  C:\Windows\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /errorendlocation /preferreduilang:ru-RU /highentropyva- /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Deployment.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Drawing.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Windows.Forms.dll /reference:C:\Windows\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /debug- /filealign:512 /optimize+ /out:obj\Release\MUAutoClickerUI.dll /resource:obj\Release\MUAutoClickerUI.Form1.resources /resource:obj\Release\MUAutoClickerUI.Properties.Resources.resources /target:library /utf8output Form1.cs Form1.Designer.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs ProtocolSettings.cs
-5>CopyFilesToOutputDirectory:
-5>  Копирование файла из "obj\Release\MUAutoClickerUI.dll" в "..\..\bin\Release\MUAutoClickerUI.dll".
-5>  MUAutoClickerUI -> C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\MUAutoClickerUI.dll
-5>
-5>Построение успешно завершено.
-5>
-5>Затраченное время: 00:00:00.49
-1>  Packer.cpp
-4>  stdafx.cpp
-4>  MemoryModule.c
-3>  AutoKillFilter.cpp
-4>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.exe) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\InjectorTest.exe) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
-4>Link:
-4>  Создание кода
-1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.exe) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\packer.exe) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
-4>  Создание кода завершено
-3>  AutoLoginFilter.cpp
-1>Link:
-1>  Создание кода
-4>  InjectorTest.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.exe
-1>  Создание кода завершено
-4>FinalizeBuildStatus:
-4>  Файл "C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.unsuccessfulbuild" удаляется.
-4>  Обращение к "C:\Users\Home\Desktop\LordOfMU3-master\\build\InjectorTest\Release\InjectorTest.lastbuildstate".
-4>
-4>Построение успешно завершено.
-4>
-4>Затраченное время: 00:00:01.42
-3>  AutoPickupFilter.cpp
-1>  Packer.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.exe
-1>FinalizeBuildStatus:
-1>  Файл "C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.unsuccessfulbuild" удаляется.
-1>  Обращение к "C:\Users\Home\Desktop\LordOfMU3-master\build\Packer\Release\Packer.lastbuildstate".
-1>
-1>Построение успешно завершено.
-1>
-1>Затраченное время: 00:00:01.98
-3>  AutoPotFilter.cpp
-2>  AdvSettingsDialog.cpp
-6>------ Перестроение всех файлов начато: проект: LordOfMU, Конфигурация: Release Win32 ------
-7>------ Перестроение всех файлов начато: проект: MACLocator, Конфигурация: Release Win32 ------
-2>  AutoClicker.cpp
-6>Построение начато 19.03.2026 18:57:25.
-7>Построение начато 19.03.2026 18:57:25.
-6>InitializeBuildStatus:
-6>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.unsuccessfulbuild", так как было задано "AlwaysCreate".
-7>InitializeBuildStatus:
-7>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.unsuccessfulbuild", так как было задано "AlwaysCreate".
-6>ClCompile:
-6>  stdafx.cpp
-7>ClCompile:
-7>  MemoryModule.c
-3>  AutosayFilter.cpp
-7>  ConnectionHandler.cpp
-3>  AutosayParser.cpp
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
-6>  Application.cpp
-3>  CharInfoFilter.cpp
-2>  BitmapFont.cpp
-7>  dllmain.cpp
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
-2>  BitmapFontFactory.cpp
-3>  CommandHandler.cpp
-3>  CommandInterface.cpp
-7>  ModuleLoader.cpp
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
-6>Application.cpp(44): warning C4996: 'CorBindToRuntimeEx': This API has been deprecated. Refer to http://go.microsoft.com/fwlink/?LinkId=143720 for more details.
-6>          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include\MSCorEE.h(535): см. объявление "CorBindToRuntimeEx"
-6>  Debugger.cpp
-2>  ClickerJob.cpp
-6>  DebugMonitor.cpp
-3>  CommonPackets.cpp
-6>  Loader.cpp
-3>  EncDec.cpp
-3>  FastMoveFilter.cpp
-7>  stdafx.cpp
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
-2>  CreateDialogUtil.cpp
-2>  MuWindow.cpp
-6>  LordOfMU.cpp
-7>  WSPRedirect.cpp
-6>  MainWnd.cpp
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcpy: подставляемая функция не объявлена
-7>c:\users\home\desktop\lordofmu3-master\src\maclocator\stdafx.h(7): warning C4164: strcat: подставляемая функция не объявлена
-3>  GameCommands.cpp
-6>  DocHostUiHandler.cpp
-2>  RawImage.cpp
-2>  SettingsDlg.cpp
-2>  Создание кода...
-7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.dll) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\MACLocator.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
-3>  GameProxy.cpp
-7>Link:
-7>     Создается библиотека C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.lib и объект C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.exp
-7>  Создание кода
-6>  HTMLWindow.cpp
-3>  InventoryManagerFilter.cpp
-7>  Создание кода завершено
-6>  OleClientSite.cpp
-6>  OleInPlaceSite.cpp
-6>  stdHelpers.cpp
-3>  LordOfMUdll.cpp
-7>  MACLocator.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\MACLocator.dll
-7>PostBuildEvent:
-7>  "packer.exe" не является внутренней или внешней
-7>  командой, исполняемой программой или пакетным файлом.
-7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: выход из команды "cd C:\Users\Home\Desktop\LordOfMU3-master\build\MACLocator\Release\
-7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: packer.exe /packall
-7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
-7>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" с кодом 9009.
-7>
-7>СБОЙ построения.
-7>
-7>Затраченное время: 00:00:02.85
-6>  UrlHelper.cpp
-3>  MultihitPacketFilter.cpp
-6>  VariantHelper.cpp
-3>  Packet.cpp
-3>  PacketDecryptFilter.cpp
-6>  win32_Unicode.cpp
-3>  PacketEncryptFilter.cpp
-6>  MemoryModule.c
-2>  Component.cpp
-3>  Компиляция...
-3>  PacketFilter.cpp
-3>  PacketLogger.cpp
-3>  PacketParser.cpp
-6>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.exe) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\MUAutoClicker.exe.o) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
-6>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.exe) не соответствует значению свойства выходного файла (.o) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
-6>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(LordOfMU) не соответствует значению свойства выходного файла (MUAutoClicker.exe) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
-3>  PacketQueue.cpp
-6>Link:
-6>  Создание кода
-3>  PacketType.cpp
-3>  ProtocolDetectFilter.cpp
-3>  ProxyBuilder.cpp
-2>  CompoundComponent.cpp
-3>  RecordRoutePacketFilter.cpp
-2>  Container.cpp
-3>  ReflectPacketFilter.cpp
-3>  ScriptCommands.cpp
-2>  FocusManager.cpp
-3>  ScriptParser.cpp
-2>  Font.cpp
-3>  ScriptProcessorFilter.cpp
-6>  Создание кода завершено
-2>  GlyphContext.cpp
-6>  LordOfMU.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.exe
-6>FinalizeBuildStatus:
-6>  Файл "C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.unsuccessfulbuild" удаляется.
-6>  Обращение к "C:\Users\Home\Desktop\LordOfMU3-master\build\LordOfMU\Release\LordOfMU.lastbuildstate".
+Сборка начата…
+1>------ Сборка начата: проект: Packer, Конфигурация: Release Win32 ------
+2>------ Сборка начата: проект: ProxyDll, Конфигурация: Release Win32 ------
+3>------ Сборка начата: проект: ClickerDll, Конфигурация: Release Win32 ------
+4>------ Сборка начата: проект: InjectorTest, Конфигурация: Release Win32 ------
+5>------ Сборка начата: проект: MUAutoClickerUI, Конфигурация: Release Any CPU ------
+5>D:\Visual\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3251: не удалось разрешить сборку System.Xml.Linq. Целевая платформа, требуемая этой сборкой (3.5), имеет более позднюю версию, чем целевая платформа проекта. Если эта ссылка необходима для кода, при компиляции могут возникнуть ошибки.
+5>D:\Visual\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2203,5): warning MSB3251: не удалось разрешить сборку System.Data.DataSetExtensions. Целевая платформа, требуемая этой сборкой (3.5), имеет более позднюю версию, чем целевая платформа проекта. Если эта ссылка необходима для кода, при компиляции могут возникнуть ошибки.
+4>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+4>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+4>D:\Visual\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+1>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+1>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+1>D:\Visual\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+2>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+2>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+2>D:\Visual\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+3>D:\Visual\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем ButtonTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\ButtonTheme.cpp, UI\theme\Default\ButtonTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем CheckBoxTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\CheckBoxTheme.cpp, UI\theme\Default\CheckBoxTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем ComponentTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\ComponentTheme.cpp, UI\theme\Default\ComponentTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем DialogTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\DialogTheme.cpp, UI\theme\Default\DialogTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем LabelTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\LabelTheme.cpp, UI\theme\Default\LabelTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем MenuBarTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\MenuBarTheme.cpp, UI\theme\Default\MenuBarTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем MenuItemTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\MenuItemTheme.cpp, UI\theme\Default\MenuItemTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем MenuTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\MenuTheme.cpp, UI\theme\Default\MenuTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем PopupMenuTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\PopupMenuTheme.cpp, UI\theme\Default\PopupMenuTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем RadioButtonTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\RadioButtonTheme.cpp, UI\theme\Default\RadioButtonTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем SliderTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\SliderTheme.cpp, UI\theme\Default\SliderTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем TextFieldTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\TextFieldTheme.cpp, UI\theme\Default\TextFieldTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем TitleBarTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\TitleBarTheme.cpp, UI\theme\Default\TitleBarTheme.cpp.
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: два или более файлов с именем ToggleButtonTheme.cpp выводят результаты в одно и то же расположение. Это может стать причиной неверного результата сборки.  Включенные файлы — UI\theme\basic\ToggleButtonTheme.cpp, UI\theme\Default\ToggleButtonTheme.cpp.
+4>MemoryModule.c
+2>stdafx.cpp
+3>stdafx.cpp
+1>stdafx.cpp
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ClickerDll\stdafx.h(14,9): warning C4164: strlen: подставляемая функция не объявлена
+1>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\Packer\stdafx.h(11,9): warning C4164: strlen: подставляемая функция не объявлена
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ClickerDll\stdafx.h(14,9): warning C4164: strcpy: подставляемая функция не объявлена
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ClickerDll\stdafx.h(14,9): warning C4164: strcat: подставляемая функция не объявлена
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ClickerDll\stdafx.h(14,9): warning C4164: strcmp: подставляемая функция не объявлена
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ClickerDll\stdafx.h(14,9): warning C4164: memcpy: подставляемая функция не объявлена
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ClickerDll\stdafx.h(14,9): warning C4164: memset: подставляемая функция не объявлена
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ClickerDll\stdafx.h(14,9): warning C4164: memcmp: подставляемая функция не объявлена
+1>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\Packer\stdafx.h(11,9): warning C4164: strcpy: подставляемая функция не объявлена
+1>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\Packer\stdafx.h(11,9): warning C4164: strcat: подставляемая функция не объявлена
+1>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\Packer\stdafx.h(11,9): warning C4164: strcmp: подставляемая функция не объявлена
+1>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\Packer\stdafx.h(11,9): warning C4164: memcpy: подставляемая функция не объявлена
+1>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\Packer\stdafx.h(11,9): warning C4164: memset: подставляемая функция не объявлена
+1>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\Packer\stdafx.h(11,9): warning C4164: memcmp: подставляемая функция не объявлена
+1>Packer.cpp
+4>InjectorTest.cpp
+2>CommonPackets.cpp
+2>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\CommonPackets.cpp(653,86): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+2>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\CommonPackets.cpp(746,60): warning C4838: Преобразование из "int" в "BYTE" требует сужающего преобразования.
+2>EncDec.cpp
+2>Packet.cpp
+2>PacketParser.cpp
+2>PacketType.cpp
+2>AutoKillFilter.cpp
+4>stdafx.cpp
+2>AutoLoginFilter.cpp
+3>AdvSettingsDialog.cpp
+3>AutoClicker.cpp
+4>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\InjectorTest\Release\InjectorTest.exe) не соответствует значению свойства выходного файла (C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\bin\Release\InjectorTest.exe) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+1>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\Packer\Release\Packer.exe) не соответствует значению свойства выходного файла (C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\bin\Release\packer.exe) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+2>AutoPickupFilter.cpp
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,34): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,48): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,62): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,76): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,90): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,104): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+2>AutoPotFilter.cpp
+2>AutosayFilter.cpp
+3>BitmapFont.cpp
+2>AutosayParser.cpp
+2>CharInfoFilter.cpp
+1>Создание кода
+1>Previous IPDB not found, fall back to full compilation.
+3>BitmapFontFactory.cpp
+4>Создание кода
+4>Previous IPDB not found, fall back to full compilation.
+1>All 179 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+4>All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+4>Создание кода завершено
+2>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ProxyDll\CharInfoFilter.cpp(59,43): error C4839: нестандартное использование класса "ATL::CW2AEX<128>" в качестве аргумента для функции с переменным числом аргументов
+1>Создание кода завершено
+2>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ProxyDll\CharInfoFilter.cpp(59,43): message : конструктор и деструктор не будут вызваны; битовая копия класса будет передана в качестве аргумента
+2>D:\Visual\VC\Tools\MSVC\14.29.30133\atlmfc\include\atlconv.h(477,9): message : см. объявление "ATL::CW2AEX<128>"
+2>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ProxyDll\CharInfoFilter.cpp(59,43): error C2248: ATL::CW2AEX<128>::CW2AEX: невозможно обратиться к private член, объявленному в классе "ATL::CW2AEX<128>"
+2>D:\Visual\VC\Tools\MSVC\14.29.30133\atlmfc\include\atlconv.h(474): message : см. объявление "ATL::CW2AEX<128>::CW2AEX"
+2>D:\Visual\VC\Tools\MSVC\14.29.30133\atlmfc\include\atlconv.h(477): message : см. объявление "ATL::CW2AEX<128>"
+2>CommandHandler.cpp
+2>CommandInterface.cpp
+3>ClickerJob.cpp
+5>  MUAutoClickerUI -> C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\bin\Release\MUAutoClickerUI.dll
+2>FastMoveFilter.cpp
+4>InjectorTest.vcxproj -> C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\InjectorTest\Release\InjectorTest.exe
+4>Сборка проекта "InjectorTest.vcxproj" завершена.
+3>CreateDialogUtil.cpp
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ClickerDll\CreateDialogUtil.cpp(15,5): warning C4302: приведение типов: усечение из "const LPCSTR" к "WORD"
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\ClickerDll\CreateDialogUtil.cpp(22,10): warning C4302: приведение типов: усечение из "const LPCSTR" к "WORD"
+3>MuWindow.cpp
+2>GameCommands.cpp
+1>Packer.vcxproj -> C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\Packer\Release\Packer.exe
+1>Сборка проекта "Packer.vcxproj" завершена.
+6>------ Сборка начата: проект: MACLocator, Конфигурация: Release Win32 ------
+7>------ Сборка начата: проект: LordOfMU, Конфигурация: Release Win32 ------
+7>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+7>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+7>D:\Visual\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+6>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+6>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+6>D:\Visual\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+3>RawImage.cpp
+3>SettingsDlg.cpp
+2>GameProxy.cpp
+7>stdafx.cpp
+3>Создание кода...
+6>MemoryModule.c
+2>InventoryManagerFilter.cpp
+2>LordOfMUdll.cpp
+6>ConnectionHandler.cpp
+7>MemoryModule.c
+2>MultihitPacketFilter.cpp
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strlen: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcpy: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcat: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcmp: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcpy: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memset: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcmp: подставляемая функция не объявлена
+6>dllmain.cpp
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strlen: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcpy: подставляемая функция не объявлена
+7>Application.cpp
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcat: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcmp: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcpy: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memset: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcmp: подставляемая функция не объявлена
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,34): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,48): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,62): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,76): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,90): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,104): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+6>ModuleLoader.cpp
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strlen: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcpy: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcat: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcmp: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcpy: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memset: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcmp: подставляемая функция не объявлена
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\LordOfMU\Application.cpp(44,15): warning C4996: 'CorBindToRuntimeEx': This API has been deprecated. Refer to https://go.microsoft.com/fwlink/?LinkId=143720 for more details.
+7>Debugger.cpp
+2>Компиляция...
+2>PacketDecryptFilter.cpp
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,34): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+3>BevelBorder.cpp
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,48): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,62): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,76): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,90): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,104): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>DebugMonitor.cpp
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,34): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,48): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,62): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,76): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,90): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,104): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>Loader.cpp
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,34): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,48): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,62): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,34): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,48): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,62): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,76): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,90): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,104): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,76): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,90): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,104): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+2>PacketEncryptFilter.cpp
+6>stdafx.cpp
+7>LordOfMU.cpp
+2>PacketFilter.cpp
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strlen: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcpy: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcat: подставляемая функция не объявлена
+7>MainWnd.cpp
+2>PacketLogger.cpp
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcmp: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcpy: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memset: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcmp: подставляемая функция не объявлена
+2>PacketQueue.cpp
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,34): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,48): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,62): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,76): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,90): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\_Shared\MuUtil.h(380,104): warning C4838: Преобразование из "int" в "unsigned char" требует сужающего преобразования.
+7>DocHostUiHandler.cpp
+2>ProtocolDetectFilter.cpp
+6>WSPRedirect.cpp
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strlen: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcpy: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcat: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: strcmp: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcpy: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memset: подставляемая функция не объявлена
+6>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\src\MACLocator\stdafx.h(7,9): warning C4164: memcmp: подставляемая функция не объявлена
+2>ProxyBuilder.cpp
+3>Border.cpp
+7>HTMLWindow.cpp
+2>RecordRoutePacketFilter.cpp
+2>ReflectPacketFilter.cpp
+6>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\MACLocator\Release\MACLocator.dll) не соответствует значению свойства выходного файла (C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\bin\Release\MACLocator.dll) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+3>LineBorder.cpp
+7>OleClientSite.cpp
+2>ScriptCommands.cpp
+6>   Создается библиотека C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\MACLocator\Release\MACLocator.lib и объект C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\MACLocator\Release\MACLocator.exp
+6>Создание кода
+6>Previous IPDB not found, fall back to full compilation.
+7>OleInPlaceSite.cpp
+7>stdHelpers.cpp
+2>ScriptParser.cpp
+6>All 307 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+6>Создание кода завершено
+2>ScriptProcessorFilter.cpp
+7>UrlHelper.cpp
+6>MACLocator.vcxproj -> C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\MACLocator\Release\MACLocator.dll
+3>Component.cpp
+7>VariantHelper.cpp
+6>Done.
 6>
-6>Построение успешно завершено.
-6>
-6>Затраченное время: 00:00:05.84
-3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\\build\ProxyDll\Release\ProxyDll.dll) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\MUEliteClicker.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
-3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(ProxyDll) не соответствует значению свойства выходного файла (MUEliteClicker) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
-2>  Graphics.cpp
-2>  Gui.cpp
-3>Link:
-3>  Создание кода
-2>  Icon.cpp
-2>  SelectionManager.cpp
-2>  ThemeManager.cpp
-2>  BevelBorder.cpp
-2>  Border.cpp
-2>  LineBorder.cpp
-2>  AbstractButton.cpp
-2>  Button.cpp
-2>  CheckBox.cpp
-3>  Создание кода завершено
-3>  ProxyDll.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\\build\ProxyDll\Release\ProxyDll.dll
-3>PostBuildEvent:
-3>  Не удается найти C:\Users\Home\Desktop\LordOfMU3-master\build\ProxyDll\Release\ProxyDll.ilk
-3>  "packer.exe" не является внутренней или внешней
-3>  командой, исполняемой программой или пакетным файлом.
-3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: выход из команды "del "C:\Users\Home\Desktop\LordOfMU3-master\build\ProxyDll\Release\\ProxyDll.ilk" /Q /F
-3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: cd C:\Users\Home\Desktop\LordOfMU3-master\build\ProxyDll\Release\
-3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: packer.exe /packall
-3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
-3>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" с кодом 9009.
-3>
-3>СБОЙ построения.
-3>
-3>Затраченное время: 00:00:12.06
-2>  Dialog.cpp
-2>  Frame.cpp
-2>  GLCanvas.cpp
-2>  Создание кода...
-2>  Компиляция...
-2>  Knob.cpp
-2>  Label.cpp
-2>  Menu.cpp
-2>  MenuBar.cpp
-2>  MenuItem.cpp
-2>  Panel.cpp
-2>  PopupMenu.cpp
-2>  ProgressBar.cpp
-2>  RadioButton.cpp
-2>  ScrollPane.cpp
-2>  Scrollbar.cpp
-2>  Scroller.cpp
-2>  Slider.cpp
-2>  TextField.cpp
-2>  TitleBar.cpp
-2>  ToggleButton.cpp
-2>  Window.cpp
-2>  ChangeEvent.cpp
-2>  ChangeListener.cpp
-2>  Event.cpp
-2>  Создание кода...
-2>  Компиляция...
-2>  EventListener.cpp
-2>  FocusEvent.cpp
-2>  FocusListener.cpp
-2>  ItemEvent.cpp
-2>  ItemListener.cpp
-2>  KeyEvent.cpp
-2>  KeyListener.cpp
-2>  MouseEvent.cpp
-2>  MouseListener.cpp
-2>  PropertyEvent.cpp
-2>  PropertyListener.cpp
-2>  WindowEvent.cpp
-2>  WindowListener.cpp
-2>  BorderLayout.cpp
-2>  FlowLayout.cpp
-2>  GridLayout.cpp
-2>  LayoutManager.cpp
-2>  PopupLayout.cpp
-2>  BasicTheme.cpp
-2>  DefaultTheme.cpp
-2>  Создание кода...
-2>  Компиляция...
-2>  ButtonTheme.cpp
-2>  CheckBoxTheme.cpp
-2>  ComponentTheme.cpp
-2>  DefaultScheme.cpp
-2>  DialogTheme.cpp
-2>  FrameTheme.cpp
-2>  GLCanvasTheme.cpp
-2>  LabelTheme.cpp
-2>  MenuBarTheme.cpp
-2>  MenuItemTheme.cpp
-2>  MenuTheme.cpp
-2>  MetalScheme.cpp
-2>  PopupMenuTheme.cpp
-2>  ProgressBarTheme.cpp
-2>  RadioButtonTheme.cpp
-2>  Scheme.cpp
-2>  ScrollbarTheme.cpp
-2>  ScrollerTheme.cpp
-2>  SliderTheme.cpp
-2>  TextFieldTheme.cpp
-2>  Создание кода...
-2>  Компиляция...
-2>  TitleBarTheme.cpp
-2>  ToggleButtonTheme.cpp
-2>  Util.cpp
-2>  RangeUtil.cpp
-2>  TextUtil.cpp
-2>UI\theme\TextUtil.cpp(411): error C2039: back_inserter: не является членом "std"
-2>UI\theme\TextUtil.cpp(411): error C3861: back_inserter: идентификатор не найден
-2>  Theme.cpp
-2>  ThemeComponent.cpp
-2>  ButtonTheme.cpp
-2>  CheckBoxTheme.cpp
-2>  ComponentTheme.cpp
-2>  DialogTheme.cpp
-2>  KnobTheme.cpp
-2>  LabelTheme.cpp
-2>  MenuBarTheme.cpp
-2>  MenuItemTheme.cpp
-2>  MenuTheme.cpp
-2>  PopupMenuTheme.cpp
-2>  RadioButtonTheme.cpp
-2>  SliderTheme.cpp
-2>  TextFieldTheme.cpp
-2>  Создание кода...
-2>  Компиляция...
-2>  TitleBarTheme.cpp
-2>  ToggleButtonTheme.cpp
-2>  ButtonGroup.cpp
-2>  Color.cpp
-2>  Dimension.cpp
-2>  DisplayList.cpp
-2>  GradientColor.cpp
-2>  Insets.cpp
-2>  Interpolator.cpp
-2>  LinearTimeInterpolator.cpp
-2>  Observable.cpp
-2>  Observer.cpp
-2>  Paint.cpp
-2>  Point.cpp
-2>  RangeHolder.cpp
-2>  Rectangle.cpp
-2>  TimeBasedInterpolator.cpp
-2>  Orientation.cpp
-2>  Создание кода...
-2>
-2>СБОЙ построения.
-2>
-2>Затраченное время: 00:00:41.74
-8>------ Перестроение всех файлов начато: проект: LspInstaller, Конфигурация: Release Win32 ------
-8>Построение начато 19.03.2026 18:58:05.
-8>InitializeBuildStatus:
-8>  Создание "C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\LspInstaller.unsuccessfulbuild", так как было задано "AlwaysCreate".
-8>ClCompile:
-8>  stdafx.cpp
-8>  ApiHook.cpp
-8>  ProcessUtil.cpp
-8>  StringUtil.cpp
-8>  dllmain.cpp
-8>  InstallerServices.cpp
-8>  MyGlobals.cpp
-8>  MyHooks.cpp
-8>  MyLoader.cpp
-8>  MyUtils.cpp
-8>  MemoryModule.c
-8>  decoder.c
-8>  distorm.c
-8>  instructions.c
-8>  insts.c
-8>  mnemonics.c
-8>  operands.c
-8>  prefix.c
-8>  textdefs.c
-8>  wstring.c
-8>  x86defs.c
-8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\LspInstaller.dll) не соответствует значению свойства выходного файла (C:\Users\Home\Desktop\LordOfMU3-master\bin\Release\LspInstaller.dll) для Linker. Это может привести к неправильному построению проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
-8>Link:
-8>  
-8>  Запуск 1-го прохода
-8>  
-8>  Поиск библиотек
-8>      Поиск minicrt.lib:
-8>        Найден _memcpy
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен minicrt.lib(memory.obj)
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
-8>        Найден __imp__Beep@8
-8>          Имеются ссылки в ApiHook.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__HeapReAlloc@16
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__FreeLibrary@4
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__HeapAlloc@12
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__HeapFree@12
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__GetTickCount@0
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__VirtualFree@12
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__GetProcessHeap@0
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__IsBadReadPtr@8
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__lstrcmpiA@8
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__GetProcAddress@8
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__VirtualAlloc@16
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__LoadLibraryA@4
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__VirtualProtect@16
-8>          Имеются ссылки в MemoryModule.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__OpenProcess@12
-8>          Имеются ссылки в MyLoader.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__CloseHandle@4
-8>          Имеются ссылки в MyLoader.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__CreateRemoteThread@28
-8>          Имеются ссылки в MyLoader.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__WaitForSingleObject@8
-8>          Имеются ссылки в MyLoader.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__lstrcpyA@8
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__GetModuleHandleA@4
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__CreateFileA@28
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__GetFileSize@8
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__SetFilePointer@16
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__ReadFile@20
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__TerminateProcess@8
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __imp__GetCurrentProcess@0
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __IMPORT_DESCRIPTOR_KERNEL32
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден __NULL_IMPORT_DESCRIPTOR
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>        Найден KERNEL32_NULL_THUNK_DATA
-8>          Имеются ссылки в kernel32.lib(KERNEL32.dll)
-8>          Загружен kernel32.lib(KERNEL32.dll)
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\user32.lib:
-8>        Найден __imp__WindowFromDC@4
-8>          Имеются ссылки в MyHooks.obj
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден __imp__GetWindowRect@8
-8>          Имеются ссылки в MyHooks.obj
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден __imp__GetShellWindow@0
-8>          Имеются ссылки в MyHooks.obj
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден __imp__FindWindowA@8
-8>          Имеются ссылки в MyLoader.obj
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден __imp__GetWindowThreadProcessId@8
-8>          Имеются ссылки в MyLoader.obj
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден __imp__SetForegroundWindow@4
-8>          Имеются ссылки в MyLoader.obj
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден __imp__GetWindowLongA@8
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден __imp__IsWindow@4
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден __imp__GetWindowTextW@12
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден __IMPORT_DESCRIPTOR_USER32
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Загружен user32.lib(USER32.dll)
-8>        Найден USER32_NULL_THUNK_DATA
-8>          Имеются ссылки в user32.lib(USER32.dll)
-8>          Загружен user32.lib(USER32.dll)
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\shell32.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\psapi.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\gdi32.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\winspool.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\comdlg32.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\advapi32.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\ole32.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\oleaut32.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\uuid.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbc32.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\odbccp32.lib:
-8>      Поиск minicrt.lib:
-8>      Поиск C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib\kernel32.lib:
-8>  
-8>  Поиск библиотек завершен
-8>  
-8>  1-ый проход завершен
-8>  
-8>  Создание кода
-8>  Создание кода завершено
-8>  
-8>  Поиск библиотек
-8>      Поиск minicrt.lib:
-8>        Найден __chkstk
-8>          Имеются ссылки в MyUtils.obj
-8>          Загружен minicrt.lib(chkstk.obj)
-8>  
-8>  Поиск библиотек завершен
-8>  
-8>  Обработка параметров /ORDER
-8>      Объекты внешнего кода не перечислены в файле параметра /ORDER:
-8>  
-8>          GetModuleHandleA@4		; kernel32.lib(KERNEL32.dll)
-8>          CloseHandle@4		; kernel32.lib(KERNEL32.dll)
-8>          lstrcmpiA@8		; kernel32.lib(KERNEL32.dll)
-8>          SetFilePointer@16		; kernel32.lib(KERNEL32.dll)
-8>          VirtualProtect@16		; kernel32.lib(KERNEL32.dll)
-8>          memset		; minicrt.lib(memory.obj)
-8>          VirtualFree@12		; kernel32.lib(KERNEL32.dll)
-8>          GetProcAddress@8		; kernel32.lib(KERNEL32.dll)
-8>          GetWindowLongA@8		; user32.lib(USER32.dll)
-8>          CreateFileA@28		; kernel32.lib(KERNEL32.dll)
-8>          GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
-8>          OpenProcess@12		; kernel32.lib(KERNEL32.dll)
-8>          GetWindowTextW@12		; user32.lib(USER32.dll)
-8>          memmove_s		; minicrt.lib(memory.obj)
-8>          IsBadReadPtr@8		; kernel32.lib(KERNEL32.dll)
-8>          WindowFromDC@4		; user32.lib(USER32.dll)
-8>          LoadLibraryA@4		; kernel32.lib(KERNEL32.dll)
-8>          VirtualAlloc@16		; kernel32.lib(KERNEL32.dll)
-8>          FindWindowA@8		; user32.lib(USER32.dll)
-8>          memmove		; minicrt.lib(memory.obj)
-8>          memcmp		; minicrt.lib(memory.obj)
-8>          memcpy		; minicrt.lib(memory.obj)
-8>          GetProcessHeap@0		; kernel32.lib(KERNEL32.dll)
-8>          ReadFile@20		; kernel32.lib(KERNEL32.dll)
-8>          HeapFree@12		; kernel32.lib(KERNEL32.dll)
-8>          TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
-8>          memcpy_s		; minicrt.lib(memory.obj)
-8>          IsWindow@4		; user32.lib(USER32.dll)
-8>          GetWindowThreadProcessId@8		; user32.lib(USER32.dll)
-8>          GetFileSize@8		; kernel32.lib(KERNEL32.dll)
-8>          GetTickCount@0		; kernel32.lib(KERNEL32.dll)
-8>          HeapAlloc@12		; kernel32.lib(KERNEL32.dll)
-8>          HeapReAlloc@16		; kernel32.lib(KERNEL32.dll)
-8>          GetWindowRect@8		; user32.lib(USER32.dll)
-8>          lstrcpyA@8		; kernel32.lib(KERNEL32.dll)
-8>          SetForegroundWindow@4		; user32.lib(USER32.dll)
-8>          Beep@8		; kernel32.lib(KERNEL32.dll)
-8>          GetShellWindow@0		; user32.lib(USER32.dll)
-8>          CreateRemoteThread@28		; kernel32.lib(KERNEL32.dll)
-8>          WaitForSingleObject@8		; kernel32.lib(KERNEL32.dll)
-8>          FreeLibrary@4		; kernel32.lib(KERNEL32.dll)
-8>  
-8>  Завершена обработка параметров /ORDER
-8>      Удален "`string'" (??_C@_0DI@IBELFNGK@?$LI?$CL?$AA?$AA?$AA?$IL?$AA?$ID?x?$AAu?$BI?$LI3?$AA?$AA?$AA?$IL?$AAP?$LI?1?$AA?$AA?$AA?$PP?$BA?$ID?D?$AE?$IJ?$AF@) из ApiHook.obj
-8>      Удален "`string'" (??_C@_0BB@GOHLODMA@EnumChildWindows?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0BC@HKDKPPPE@EnumThreadWindows?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0M@LKGMJDJK@EnumWindows?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0M@HKFEMMNM@FindWindowA?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0M@GGMMHJAL@FindWindowW?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0O@IDLNKOCH@FindWindowExA?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0O@JPCFBLPA@FindWindowExW?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_09CGMHJDCO@GetWindow?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0BI@BLIAECLN@RegisterShellHookWindow?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0BA@OAPIABOD@WindowFromPoint?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0BF@DOHHKAPK@ChildWindowFromPoint?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_0N@CJDAKOMP@GetTopWindow?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_1BG@KNJGGOFB@?$AAw?$AAs?$AA2?$AA_?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@) из MyLoader.obj
-8>      Удален "`string'" (??_C@_1BI@HEAIIGKD@?$AAm?$AAs?$AAw?$AAs?$AAo?$AAc?$AAk?$AA?4?$AAd?$AAl?$AAl?$AA?$AA@) из MyLoader.obj
-8>      Удален "private: static unsigned long const CPackUtil::s_packMagic" (?s_packMagic@CPackUtil@@0KB) из MyUtils.obj
-8>      Удален "`string'" (??_C@_05JOBEKLPN@BYTE?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_05GAGGPBM@WORD?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_06JKOMEAKL@DWORD?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_06KPAKPDMC@QWORD?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_06GFCABIIE@TBYTE?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_07PKJDDPMC@DQWORD?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_06JMOFLNKF@YWORD?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_03CMFHJCIF@DB?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_05IMOOOKID@LOCK?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_04COPMDGFE@REP?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_06DODLCMMB@REPNZ?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_02KEGNLNML@?0?5?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_07GPPNHKOM@?5?$DLTAKEN?$AA@) из distorm.obj
-8>      Удален "`string'" (??_C@_0M@KOOLNINB@?5?$DLNOT?5TAKEN?$AA@) из distorm.obj
-8>      Удален "public: __thiscall CPackUtil::CPackUtil(void)" (??0CPackUtil@@QAE@XZ) из MyUtils.obj
-8>      Удален "public: int __thiscall CPackUtil::GetPackedFileSize(int)" (?GetPackedFileSize@CPackUtil@@QAEHH@Z) из MyUtils.obj
-8>      Удален "public: bool __thiscall CPackUtil::DecodeData(char *,int,struct CPackUtil::FileInfo const &)" (?DecodeData@CPackUtil@@QAE_NPADHABUFileInfo@1@@Z) из MyUtils.obj
-8>      Удален "protected: bool __thiscall CPackUtil::CheckMagic(long &,void *)" (?CheckMagic@CPackUtil@@IAE_NAAJPAX@Z) из MyUtils.obj
-8>      Удален "protected: bool __thiscall CPackUtil::ReadPackInfo(long &,void *,struct CPackUtil::PackInfo &)" (?ReadPackInfo@CPackUtil@@IAE_NAAJPAXAAUPackInfo@1@@Z) из MyUtils.obj
-8>      Удален _prefixes_track_unused из prefix.obj
-8>      Удален _memcmp из minicrt.lib(memory.obj)
-8>      Удален _memcpy_s из minicrt.lib(memory.obj)
-8>      Удален _memmove из minicrt.lib(memory.obj)
-8>      Удален _memmove_s из minicrt.lib(memory.obj)
-8>      Удален _Beep@8 из kernel32.lib(KERNEL32.dll)
-8>      Удален _HeapReAlloc@16 из kernel32.lib(KERNEL32.dll)
-8>      Удален _FreeLibrary@4 из kernel32.lib(KERNEL32.dll)
-8>      Удален _HeapAlloc@12 из kernel32.lib(KERNEL32.dll)
-8>      Удален _HeapFree@12 из kernel32.lib(KERNEL32.dll)
-8>      Удален _GetTickCount@0 из kernel32.lib(KERNEL32.dll)
-8>      Удален _VirtualFree@12 из kernel32.lib(KERNEL32.dll)
-8>      Удален _GetProcessHeap@0 из kernel32.lib(KERNEL32.dll)
-8>      Удален _IsBadReadPtr@8 из kernel32.lib(KERNEL32.dll)
-8>      Удален _lstrcmpiA@8 из kernel32.lib(KERNEL32.dll)
-8>      Удален _GetProcAddress@8 из kernel32.lib(KERNEL32.dll)
-8>      Удален _VirtualAlloc@16 из kernel32.lib(KERNEL32.dll)
-8>      Удален _LoadLibraryA@4 из kernel32.lib(KERNEL32.dll)
-8>      Удален _VirtualProtect@16 из kernel32.lib(KERNEL32.dll)
-8>      Удален _OpenProcess@12 из kernel32.lib(KERNEL32.dll)
-8>      Удален _CloseHandle@4 из kernel32.lib(KERNEL32.dll)
-8>      Удален _CreateRemoteThread@28 из kernel32.lib(KERNEL32.dll)
-8>      Удален _WaitForSingleObject@8 из kernel32.lib(KERNEL32.dll)
-8>      Удален _lstrcpyA@8 из kernel32.lib(KERNEL32.dll)
-8>      Удален _GetModuleHandleA@4 из kernel32.lib(KERNEL32.dll)
-8>      Удален _CreateFileA@28 из kernel32.lib(KERNEL32.dll)
-8>      Удален _GetFileSize@8 из kernel32.lib(KERNEL32.dll)
-8>      Удален _SetFilePointer@16 из kernel32.lib(KERNEL32.dll)
-8>      Удален _ReadFile@20 из kernel32.lib(KERNEL32.dll)
-8>      Удален _TerminateProcess@8 из kernel32.lib(KERNEL32.dll)
-8>      Удален _GetCurrentProcess@0 из kernel32.lib(KERNEL32.dll)
-8>      Удален _WindowFromDC@4 из user32.lib(USER32.dll)
-8>      Удален _GetWindowRect@8 из user32.lib(USER32.dll)
-8>      Удален _GetShellWindow@0 из user32.lib(USER32.dll)
-8>      Удален _FindWindowA@8 из user32.lib(USER32.dll)
-8>      Удален _GetWindowThreadProcessId@8 из user32.lib(USER32.dll)
-8>      Удален _SetForegroundWindow@4 из user32.lib(USER32.dll)
-8>      Удален _GetWindowLongA@8 из user32.lib(USER32.dll)
-8>      Удален _IsWindow@4 из user32.lib(USER32.dll)
-8>      Удален _GetWindowTextW@12 из user32.lib(USER32.dll)
-8>  Запуск 2-го прохода
-8>        CIL library( CIL module)
-8>       minicrt.lib(chkstk.obj)
-8>       minicrt.lib(memory.obj)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       kernel32.lib(KERNEL32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>       user32.lib(USER32.dll)
-8>  2-ой проход завершен
-8>  LspInstaller.vcxproj -> C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\LspInstaller.dll
-8>PostBuildEvent:
-8>   Том в устройстве C не имеет метки.
-8>   Серийный номер тома: 8021-01CB
-8>  
-8>   Содержимое папки C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release
-8>  
-8>  Файл не найден
-8>  "packer.exe" не является внутренней или внешней
-8>  командой, исполняемой программой или пакетным файлом.
-8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: выход из команды "cmd /c dir "C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\LspInstaller.dll"
-8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: cd C:\Users\Home\Desktop\LordOfMU3-master\build\LspInstaller\Release\
-8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: packer.exe /packall
-8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
-8>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" с кодом 9009.
+6>Сборка проекта "MACLocator.vcxproj" завершена.
+7>win32_Unicode.cpp
+2>Сборка проекта "ProxyDll.vcxproj" завершена с ошибкой.
+3>AbstractButton.cpp
+7>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\LordOfMU\Release\LordOfMU.exe) не соответствует значению свойства выходного файла (C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\bin\Release\MUAutoClicker.exe.o) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+7>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1364,5): warning MSB8012: TargetExt(.exe) не соответствует значению свойства выходного файла (.o) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+7>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1365,5): warning MSB8012: TargetName(LordOfMU) не соответствует значению свойства выходного файла (MUAutoClicker.exe) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+3>Button.cpp
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ ___CxxFrameHandler3.
+7>LIBCPMT.LIB(iosptrs.obj) : error LNK2001: неразрешенный внешний символ ___CxxFrameHandler3.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ ___CxxFrameHandler3.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ ___CxxFrameHandler3.
+7>Application.obj : error LNK2001: неразрешенный внешний символ ___CxxFrameHandler3.
+7>LIBCPMT.LIB(locale0.obj) : error LNK2001: неразрешенный внешний символ ___CxxFrameHandler3.
+7>LIBCPMT.LIB(ios.obj) : error LNK2001: неразрешенный внешний символ ___CxxFrameHandler3.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ ___CxxFrameHandler3.
+7>Application.obj : error LNK2001: неразрешенный внешний символ _strcpy_s.
+7>Application.obj : error LNK2001: неразрешенный внешний символ _fopen_s.
+7>Application.obj : error LNK2001: неразрешенный внешний символ _fread.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _fread.
+7>Application.obj : error LNK2001: неразрешенный внешний символ _fclose.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _fclose.
+7>Application.obj : error LNK2001: неразрешенный внешний символ _strcat_s.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ ___std_terminate.
+7>Application.obj : error LNK2001: неразрешенный внешний символ ___std_terminate.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ ___std_terminate.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ ___std_terminate.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ ___std_terminate.
+7>Loader.obj : error LNK2001: неразрешенный внешний символ _srand.
+7>Loader.obj : error LNK2001: неразрешенный внешний символ _rand.
+7>Loader.obj : error LNK2001: неразрешенный внешний символ _fwrite.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _fwrite.
+7>Loader.obj : error LNK2001: неразрешенный внешний символ _fflush.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _fflush.
+7>LIBCPMT.LIB(xwcsxfrm.obj) : error LNK2001: неразрешенный внешний символ _free.
+7>LIBCPMT.LIB(StlCompareStringA.obj) : error LNK2001: неразрешенный внешний символ _free.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _free.
+7>LIBCPMT.LIB(StlLCMapStringA.obj) : error LNK2001: неразрешенный внешний символ _free.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _free.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ _free.
+7>Loader.obj : error LNK2001: неразрешенный внешний символ _free.
+7>libcmt.lib(delete_scalar.obj) : error LNK2001: неразрешенный внешний символ _free.
+7>LIBCPMT.LIB(locale0.obj) : error LNK2001: неразрешенный внешний символ _free.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _free.
+7>Loader.obj : error LNK2001: неразрешенный внешний символ "class ATL::CAtlBaseModule ATL::_AtlBaseModule" (?_AtlBaseModule@ATL@@3VCAtlBaseModule@1@A).
+7>Loader.obj : error LNK2001: неразрешенный внешний символ _fseek.
+7>Loader.obj : error LNK2001: неразрешенный внешний символ _ftell.
+7>MainWnd.obj : error LNK2001: неразрешенный внешний символ _wcscpy_s.
+7>MainWnd.obj : error LNK2001: неразрешенный внешний символ _wcscat_s.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_copy.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_copy.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_copy.
+7>DocHostUiHandler.obj : error LNK2001: неразрешенный внешний символ ___std_exception_copy.
+7>libcmt.lib(throw_bad_alloc.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_copy.
+7>LIBCPMT.LIB(xthrow.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_copy.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_copy.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_destroy.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_destroy.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_destroy.
+7>DocHostUiHandler.obj : error LNK2001: неразрешенный внешний символ ___std_exception_destroy.
+7>libcmt.lib(throw_bad_alloc.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_destroy.
+7>LIBCPMT.LIB(xthrow.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_destroy.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ ___std_exception_destroy.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __invalid_parameter_noinfo_noreturn.
+7>DocHostUiHandler.obj : error LNK2001: неразрешенный внешний символ __invalid_parameter_noinfo_noreturn.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ __invalid_parameter_noinfo_noreturn.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ __invalid_parameter_noinfo_noreturn.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __invalid_parameter_noinfo_noreturn.
+7>HTMLWindow.obj : error LNK2001: неразрешенный внешний символ ___stdio_common_vsprintf_s.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ ___stdio_common_vsprintf_s.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ ___stdio_common_vsprintf_s.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ ___stdio_common_vsprintf_s.
+7>stdHelpers.obj : error LNK2001: неразрешенный внешний символ _tolower.
+7>LIBCPMT.LIB(xstoul.obj) : error LNK2001: неразрешенный внешний символ _tolower.
+7>LIBCPMT.LIB(xstoull.obj) : error LNK2001: неразрешенный внешний символ _tolower.
+7>  Указание на символы, которые определены и могут подойти:
+7>    "public: char __thiscall std::ctype<char>::tolower(char)const " (?tolower@?$ctype@D@std@@QBEDD@Z)
+7>    "public: unsigned short __thiscall std::ctype<unsigned short>::tolower(unsigned short)const " (?tolower@?$ctype@G@std@@QBEGG@Z)
+7>    "public: wchar_t __thiscall std::ctype<wchar_t>::tolower(wchar_t)const " (?tolower@?$ctype@_W@std@@QBE_W_W@Z)
+7>stdHelpers.obj : error LNK2001: неразрешенный внешний символ _toupper.
+7>UrlHelper.obj : error LNK2001: неразрешенный внешний символ _ldexp.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _ldexp.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _ldexp.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(xstrcoll.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(xmbtowc.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(xwcscoll.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(xstoll.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(xstol.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>UrlHelper.obj : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(xwctomb.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(xstoul.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>LIBCPMT.LIB(xstoull.obj) : error LNK2001: неразрешенный внешний символ __errno.
+7>UrlHelper.obj : error LNK2001: неразрешенный внешний символ _strtof.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _strtof.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _strtof.
+7>UrlHelper.obj : error LNK2001: неразрешенный внешний символ _strtod.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _strtod.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _strtod.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ _strtod.
+7>UrlHelper.obj : error LNK2001: неразрешенный внешний символ _localeconv.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _localeconv.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _localeconv.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ _localeconv.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ _calloc.
+7>UrlHelper.obj : error LNK2001: неразрешенный внешний символ _calloc.
+7>LIBCPMT.LIB(_tolower.obj) : error LNK2001: неразрешенный внешний символ _calloc.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _calloc.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _calloc.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __purecall.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __purecall.
+7>UrlHelper.obj : error LNK2001: неразрешенный внешний символ __purecall.
+7>LIBCPMT.LIB(locale0.obj) : error LNK2001: неразрешенный внешний символ __purecall.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ __purecall.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ __purecall.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __seh_filter_dll.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __configure_narrow_argv.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __initialize_narrow_environment.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __initialize_onexit_table.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __register_onexit_function.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __execute_onexit_table.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __crt_atexit.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __crt_at_quick_exit.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __cexit.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __cexit.
+7>libcmt.lib(utility.obj) : error LNK2001: неразрешенный внешний символ __except_handler4.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __except_handler4.
+7>libcmt.lib(sehprolg4.obj) : error LNK2001: неразрешенный внешний символ __except_handler4.
+7>libcmt.lib(new_scalar.obj) : error LNK2001: неразрешенный внешний символ __callnewh.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _malloc.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ _malloc.
+7>LIBCPMT.LIB(xwcsxfrm.obj) : error LNK2001: неразрешенный внешний символ _malloc.
+7>LIBCPMT.LIB(StlCompareStringA.obj) : error LNK2001: неразрешенный внешний символ _malloc.
+7>libcmt.lib(new_scalar.obj) : error LNK2001: неразрешенный внешний символ _malloc.
+7>LIBCPMT.LIB(locale0.obj) : error LNK2001: неразрешенный внешний символ _malloc.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _malloc.
+7>LIBCPMT.LIB(StlLCMapStringA.obj) : error LNK2001: неразрешенный внешний символ _malloc.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __seh_filter_exe.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __set_app_type.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ ___setusermatherr.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __configure_wide_argv.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __initialize_wide_environment.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __get_wide_winmain_command_line.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __initterm.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __initterm_e.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ _exit.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __exit.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __set_fmode.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __c_exit.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __register_thread_local_exe_atexit_callback.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __configthreadlocale.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ __set_new_mode.
+7>libcmt.lib(exe_wwinmain.obj) : error LNK2001: неразрешенный внешний символ ___p__commode.
+7>libcmt.lib(utility_desktop.obj) : error LNK2001: неразрешенный внешний символ _terminate.
+7>libcmt.lib(utility_desktop.obj) : error LNK2001: неразрешенный внешний символ ___current_exception.
+7>libcmt.lib(utility_desktop.obj) : error LNK2001: неразрешенный внешний символ ___current_exception_context.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _memset.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ _memset.
+7>libcmt.lib(utility_desktop.obj) : error LNK2001: неразрешенный внешний символ _memset.
+7>LIBCPMT.LIB(xwctomb.obj) : error LNK2001: неразрешенный внешний символ _memset.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _memset.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _memset.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __CxxThrowException@8.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __CxxThrowException@8.
+7>libcmt.lib(throw_bad_alloc.obj) : error LNK2001: неразрешенный внешний символ __CxxThrowException@8.
+7>LIBCPMT.LIB(xthrow.obj) : error LNK2001: неразрешенный внешний символ __CxxThrowException@8.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ __CxxThrowException@8.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ __CxxThrowException@8.
+7>libcmt.lib(tncleanup.obj) : error LNK2001: неразрешенный внешний символ ___std_type_info_destroy_list.
+7>libcmt.lib(default_precision.obj) : error LNK2001: неразрешенный внешний символ __controlfp_s.
+7>LIBCPMT.LIB(xlock.obj) : error LNK2001: неразрешенный внешний символ __lock_locales.
+7>LIBCPMT.LIB(xlock.obj) : error LNK2001: неразрешенный внешний символ __unlock_locales.
+7>LIBCPMT.LIB(locale0.obj) : error LNK2001: неразрешенный внешний символ _setlocale.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _setlocale.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ _memcpy.
+7>LIBCPMT.LIB(xwcsxfrm.obj) : error LNK2001: неразрешенный внешний символ _memcpy.
+7>LIBCPMT.LIB(xstrxfrm.obj) : error LNK2001: неразрешенный внешний символ _memcpy.
+7>LIBCPMT.LIB(locale0.obj) : error LNK2001: неразрешенный внешний символ _memcpy.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _memcpy.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _memcpy.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _memcpy.
+7>LIBCPMT.LIB(_tolower.obj) : error LNK2001: неразрешенный внешний символ ___pctype_func.
+7>LIBCPMT.LIB(xwctomb.obj) : error LNK2001: неразрешенный внешний символ ___pctype_func.
+7>LIBCPMT.LIB(_toupper.obj) : error LNK2001: неразрешенный внешний символ ___pctype_func.
+7>LIBCPMT.LIB(_tolower.obj) : error LNK2001: неразрешенный внешний символ _isupper.
+7>LIBCPMT.LIB(xdateord.obj) : error LNK2001: неразрешенный внешний символ ____lc_locale_name_func.
+7>LIBCPMT.LIB(xwcscoll.obj) : error LNK2001: неразрешенный внешний символ ____lc_locale_name_func.
+7>LIBCPMT.LIB(xwcsxfrm.obj) : error LNK2001: неразрешенный внешний символ ____lc_locale_name_func.
+7>LIBCPMT.LIB(xstrxfrm.obj) : error LNK2001: неразрешенный внешний символ ____lc_locale_name_func.
+7>LIBCPMT.LIB(_tolower.obj) : error LNK2001: неразрешенный внешний символ ____lc_locale_name_func.
+7>LIBCPMT.LIB(xwctomb.obj) : error LNK2001: неразрешенный внешний символ ____lc_locale_name_func.
+7>LIBCPMT.LIB(_toupper.obj) : error LNK2001: неразрешенный внешний символ ____lc_locale_name_func.
+7>LIBCPMT.LIB(xstrcoll.obj) : error LNK2001: неразрешенный внешний символ ____lc_locale_name_func.
+7>LIBCPMT.LIB(_tolower.obj) : error LNK2001: неразрешенный внешний символ ____lc_codepage_func.
+7>LIBCPMT.LIB(xwctomb.obj) : error LNK2001: неразрешенный внешний символ ____lc_codepage_func.
+7>LIBCPMT.LIB(_toupper.obj) : error LNK2001: неразрешенный внешний символ ____lc_codepage_func.
+7>LIBCPMT.LIB(_tolower.obj) : error LNK2001: неразрешенный внешний символ __wcsdup.
+7>LIBCPMT.LIB(xstrcoll.obj) : error LNK2001: неразрешенный внешний символ __wcsdup.
+7>LIBCPMT.LIB(xwctomb.obj) : error LNK2001: неразрешенный внешний символ ____mb_cur_max_func.
+7>LIBCPMT.LIB(_toupper.obj) : error LNK2001: неразрешенный внешний символ _islower.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ ___acrt_iob_func.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ __get_stream_buffer_pointers.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _fgetc.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _fgetpos.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _fputc.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _fsetpos.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ __fseeki64.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _setvbuf.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _ungetc.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ __lock_file.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ __unlock_file.
+7>LIBCPMT.LIB(cerr.obj) : error LNK2001: неразрешенный внешний символ _memmove.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _memmove.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _memmove.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ _memmove.
+7>LIBCPMT.LIB(xstoul.obj) : error LNK2001: неразрешенный внешний символ _isspace.
+7>LIBCPMT.LIB(xstoull.obj) : error LNK2001: неразрешенный внешний символ _isspace.
+7>LIBCPMT.LIB(xstoll.obj) : error LNK2001: неразрешенный внешний символ _isspace.
+7>LIBCPMT.LIB(xstol.obj) : error LNK2001: неразрешенный внешний символ _isspace.
+7>LIBCPMT.LIB(xstoul.obj) : error LNK2001: неразрешенный внешний символ _memchr.
+7>LIBCPMT.LIB(xstoull.obj) : error LNK2001: неразрешенный внешний символ _memchr.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _memchr.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ _memchr.
+7>LIBCPMT.LIB(uncaught_exception.obj) : error LNK2001: неразрешенный внешний символ ___uncaught_exception.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _frexp.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _frexp.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _realloc.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ _strcspn.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ _strcspn.
+7>LIBCPMT.LIB(locale.obj) : error LNK2001: неразрешенный внешний символ __CIpow.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __CIpow.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __CIpow.
+7>LIBCPMT.LIB(iosptrs.obj) : error LNK2001: неразрешенный внешний символ _abort.
+7>LIBCPMT.LIB(StlLCMapStringA.obj) : error LNK2001: неразрешенный внешний символ ___strncnt.
+7>LIBCPMT.LIB(StlCompareStringA.obj) : error LNK2001: неразрешенный внешний символ ___strncnt.
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __Getdays.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __Getdays.
+7>  Указание на символы, которые определены и могут подойти:
+7>    "public: char const * __thiscall std::_Locinfo::_Getdays(void)const " (?_Getdays@_Locinfo@std@@QBEPBDXZ)
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __Getmonths.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __Getmonths.
+7>  Указание на символы, которые определены и могут подойти:
+7>    "public: char const * __thiscall std::_Locinfo::_Getmonths(void)const " (?_Getmonths@_Locinfo@std@@QBEPBDXZ)
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __W_Getdays.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __W_Getdays.
+7>  Указание на символы, которые определены и могут подойти:
+7>    "public: unsigned short const * __thiscall std::_Locinfo::_W_Getdays(void)const " (?_W_Getdays@_Locinfo@std@@QBEPBGXZ)
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __W_Getmonths.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __W_Getmonths.
+7>  Указание на символы, которые определены и могут подойти:
+7>    "public: unsigned short const * __thiscall std::_Locinfo::_W_Getmonths(void)const " (?_W_Getmonths@_Locinfo@std@@QBEPBGXZ)
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __W_Gettnames.
+7>  Указание на символы, которые определены и могут подойти:
+7>    "public: class std::_Timevec __thiscall std::_Locinfo::_W_Gettnames(void)const " (?_W_Gettnames@_Locinfo@std@@QBE?AV_Timevec@2@XZ)
+7>LIBCPMT.LIB(wlocale.obj) : error LNK2001: неразрешенный внешний символ __Wcsftime.
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __Gettnames.
+7>  Указание на символы, которые определены и могут подойти:
+7>    "public: class std::_Timevec __thiscall std::_Locinfo::_Gettnames(void)const " (?_Gettnames@_Locinfo@std@@QBE?AV_Timevec@2@XZ)
+7>LIBCPMT.LIB(xlocale.obj) : error LNK2001: неразрешенный внешний символ __Strftime.
+7>LIBCPMT.LIB(xstrcoll.obj) : error LNK2001: неразрешенный внешний символ ____lc_collate_cp_func.
+7>LIBCPMT.LIB(xstrxfrm.obj) : error LNK2001: неразрешенный внешний символ ____lc_collate_cp_func.
+7>LIBCPMT.LIB(xstrcoll.obj) : error LNK2001: неразрешенный внешний символ _memcmp.
+7>LIBCPMT.LIB(StlCompareStringW.obj) : error LNK2001: неразрешенный внешний символ _wcsnlen.
+7>LIBCPMT.LIB(StlLCMapStringW.obj) : error LNK2001: неразрешенный внешний символ _wcsnlen.
+7>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\bin\Release\MUAutoClicker.exe.o : fatal error LNK1120: неразрешенных внешних элементов: 108
+7>Сборка проекта "LordOfMU.vcxproj" завершена с ошибкой.
+3>CheckBox.cpp
+3>Dialog.cpp
+3>Frame.cpp
+3>GLCanvas.cpp
+3>Knob.cpp
+3>Label.cpp
+3>Menu.cpp
+3>MenuBar.cpp
+3>MenuItem.cpp
+3>Panel.cpp
+3>PopupMenu.cpp
+3>ProgressBar.cpp
+3>RadioButton.cpp
+3>Scrollbar.cpp
+3>Создание кода...
+3>Компиляция...
+3>Scroller.cpp
+3>ScrollPane.cpp
+3>Slider.cpp
+3>TextField.cpp
+3>TitleBar.cpp
+3>ToggleButton.cpp
+3>Window.cpp
+3>CompoundComponent.cpp
+3>Container.cpp
+3>ChangeEvent.cpp
+3>ChangeListener.cpp
+3>Event.cpp
+3>EventListener.cpp
+3>FocusEvent.cpp
+3>FocusListener.cpp
+3>ItemEvent.cpp
+3>ItemListener.cpp
+3>KeyEvent.cpp
+3>KeyListener.cpp
+3>MouseEvent.cpp
+3>Создание кода...
+3>Компиляция...
+3>MouseListener.cpp
+3>PropertyEvent.cpp
+3>PropertyListener.cpp
+3>WindowEvent.cpp
+3>WindowListener.cpp
+3>FocusManager.cpp
+3>Font.cpp
+3>GlyphContext.cpp
+3>Graphics.cpp
+3>Gui.cpp
+3>Icon.cpp
+3>BorderLayout.cpp
+3>FlowLayout.cpp
+3>GridLayout.cpp
+3>LayoutManager.cpp
+3>PopupLayout.cpp
+3>SelectionManager.cpp
+3>ThemeManager.cpp
+3>BasicTheme.cpp
+3>ButtonTheme.cpp
+3>Создание кода...
+3>Компиляция...
+3>CheckBoxTheme.cpp
+3>ComponentTheme.cpp
+3>DialogTheme.cpp
+3>KnobTheme.cpp
+3>LabelTheme.cpp
+3>MenuBarTheme.cpp
+3>MenuItemTheme.cpp
+3>MenuTheme.cpp
+3>PopupMenuTheme.cpp
+3>RadioButtonTheme.cpp
+3>SliderTheme.cpp
+3>TextFieldTheme.cpp
+3>TitleBarTheme.cpp
+3>ToggleButtonTheme.cpp
+3>DefaultTheme.cpp
+3>ButtonTheme.cpp
+3>CheckBoxTheme.cpp
+3>ComponentTheme.cpp
+3>DefaultScheme.cpp
+3>DialogTheme.cpp
+3>Создание кода...
+3>Компиляция...
+3>FrameTheme.cpp
+3>GLCanvasTheme.cpp
+3>LabelTheme.cpp
+3>MenuBarTheme.cpp
+3>MenuItemTheme.cpp
+3>MenuTheme.cpp
+3>MetalScheme.cpp
+3>PopupMenuTheme.cpp
+3>ProgressBarTheme.cpp
+3>RadioButtonTheme.cpp
+3>Scheme.cpp
+3>ScrollbarTheme.cpp
+3>ScrollerTheme.cpp
+3>SliderTheme.cpp
+3>TextFieldTheme.cpp
+3>TitleBarTheme.cpp
+3>ToggleButtonTheme.cpp
+3>Util.cpp
+3>RangeUtil.cpp
+3>TextUtil.cpp
+3>Создание кода...
+3>Компиляция...
+3>Theme.cpp
+3>ThemeComponent.cpp
+3>ButtonGroup.cpp
+3>Color.cpp
+3>Orientation.cpp
+3>Dimension.cpp
+3>DisplayList.cpp
+3>GradientColor.cpp
+3>Insets.cpp
+3>Interpolator.cpp
+3>LinearTimeInterpolator.cpp
+3>Observable.cpp
+3>Observer.cpp
+3>Paint.cpp
+3>Point.cpp
+3>RangeHolder.cpp
+3>Rectangle.cpp
+3>TimeBasedInterpolator.cpp
+3>Создание кода...
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\ClickerDll\Release\ClickerDll.dll) не соответствует значению свойства выходного файла (C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\bin\Release\MUAutoClicker.dll) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+3>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1365,5): warning MSB8012: TargetName(ClickerDll) не соответствует значению свойства выходного файла (MUAutoClicker) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\ButtonTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\CheckBoxTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\ComponentTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\DialogTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\LabelTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\MenuBarTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\MenuItemTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\MenuTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\PopupMenuTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\RadioButtonTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\SliderTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\TextFieldTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\TitleBarTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\build\ClickerDll\Release\ToggleButtonTheme.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
+3>BasicTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::basic::ButtonTheme::ButtonTheme(void)" (??0ButtonTheme@basic@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::BasicTheme::BasicTheme(void)" (??0BasicTheme@theme@ui@@QAE@XZ).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::ButtonTheme::installTheme(class ui::Component *)" (?installTheme@ButtonTheme@basic@theme@ui@@UAEXPAVComponent@4@@Z).
+3>CheckBoxTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::ButtonTheme::installTheme(class ui::Component *)" (?installTheme@ButtonTheme@basic@theme@ui@@UAEXPAVComponent@4@@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::ButtonTheme::deinstallTheme(class ui::Component *)" (?deinstallTheme@ButtonTheme@basic@theme@ui@@UAEXPAVComponent@4@@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::ButtonTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ButtonTheme@basic@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual class ui::util::Dimension const __thiscall ui::theme::basic::ButtonTheme::getPreferredSize(class ui::Component const *)const " (?getPreferredSize@ButtonTheme@basic@theme@ui@@UBE?BVDimension@util@4@PBVComponent@4@@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::ButtonTheme::propertyChanged(class ui::event::PropertyEvent const &)" (?propertyChanged@ButtonTheme@basic@theme@ui@@UAEXABVPropertyEvent@event@4@@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::ButtonTheme::paintFocus(int,int,class ui::Graphics &,class ui::util::Dimension const &,class ui::util::Dimension const &,int)const " (?paintFocus@ButtonTheme@basic@theme@ui@@UBEXHHAAVGraphics@4@ABVDimension@util@4@1H@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::ButtonTheme::paintButton(int,int,class ui::Graphics &,class std::vector<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class ui::util::Dimension>,class std::allocator<struct std::pair<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class ui::util::Dimension> > > const &,class ui::util::Dimension const &,int,class ui::Icon *)const " (?paintButton@ButtonTheme@basic@theme@ui@@UBEXHHAAVGraphics@4@ABV?$vector@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VDimension@util@ui@@@std@@V?$allocator@U?$pair@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VDimension@util@ui@@@std@@@2@@std@@ABVDimension@util@4@HPAVIcon@4@@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::MenuTheme::installTheme(class ui::Component *)" (?installTheme@MenuTheme@basic@theme@ui@@UAEXPAVComponent@4@@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::MenuTheme::propertyChanged(class ui::event::PropertyEvent const &)" (?propertyChanged@MenuTheme@basic@theme@ui@@UAEXABVPropertyEvent@event@4@@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::MenuItemTheme::installTheme(class ui::Component *)" (?installTheme@MenuItemTheme@basic@theme@ui@@UAEXPAVComponent@4@@Z).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::MenuItemTheme::paintFocus(int,int,class ui::Graphics &,class ui::util::Dimension const &,class ui::util::Dimension const &,int)const " (?paintFocus@MenuItemTheme@basic@theme@ui@@UBEXHHAAVGraphics@4@ABVDimension@util@4@1H@Z).
+3>BasicTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::basic::PopupMenuTheme::PopupMenuTheme(void)" (??0PopupMenuTheme@basic@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::BasicTheme::BasicTheme(void)" (??0BasicTheme@theme@ui@@QAE@XZ).
+3>BasicTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::basic::MenuBarTheme::MenuBarTheme(void)" (??0MenuBarTheme@basic@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::BasicTheme::BasicTheme(void)" (??0BasicTheme@theme@ui@@QAE@XZ).
+3>BasicTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::basic::RadioButtonTheme::installTheme(class ui::Component *)" (?installTheme@RadioButtonTheme@basic@theme@ui@@UAEXPAVComponent@4@@Z).
+3>BasicTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::basic::RadioButtonTheme::SelectedIcon::SelectedIcon(void)" (??0SelectedIcon@RadioButtonTheme@basic@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::BasicTheme::BasicTheme(void)" (??0BasicTheme@theme@ui@@QAE@XZ).
+3>BasicTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::basic::RadioButtonTheme::DefaultIcon::DefaultIcon(void)" (??0DefaultIcon@RadioButtonTheme@basic@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::BasicTheme::BasicTheme(void)" (??0BasicTheme@theme@ui@@QAE@XZ).
+3>BasicTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::basic::TitleBarTheme::TitleBarTheme(void)" (??0TitleBarTheme@basic@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::BasicTheme::BasicTheme(void)" (??0BasicTheme@theme@ui@@QAE@XZ).
+3>BasicTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::basic::LabelTheme::LabelTheme(void)" (??0LabelTheme@basic@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::BasicTheme::BasicTheme(void)" (??0BasicTheme@theme@ui@@QAE@XZ).
+3>BasicTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::basic::TextFieldTheme::TextFieldTheme(void)" (??0TextFieldTheme@basic@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::BasicTheme::BasicTheme(void)" (??0BasicTheme@theme@ui@@QAE@XZ).
+3>BasicTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::basic::SliderTheme::SliderTheme(void)" (??0SliderTheme@basic@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::BasicTheme::BasicTheme(void)" (??0BasicTheme@theme@ui@@QAE@XZ).
+3>ScrollerTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>FrameTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>GLCanvasTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>ProgressBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>ScrollbarTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>TextFieldTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>TitleBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>ToggleButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>DefaultTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>MenuTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>PopupMenuTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>RadioButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>SliderTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>ButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>LabelTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>MenuBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>MenuItemTheme.obj : error LNK2001: неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::ComponentTheme::ComponentTheme(void)" (??0ComponentTheme@defaulttheme@theme@ui@@QAE@XZ).
+3>GLCanvasTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>ProgressBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>ScrollbarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>ScrollerTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>TextFieldTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>TitleBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>ToggleButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>FrameTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>MenuTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>PopupMenuTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>RadioButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>SliderTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>ButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>LabelTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>MenuBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>MenuItemTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual __thiscall ui::theme::defaulttheme::ComponentTheme::~ComponentTheme(void)" (??1ComponentTheme@defaulttheme@theme@ui@@UAE@XZ).
+3>GLCanvasTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ProgressBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ScrollbarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ScrollerTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>TextFieldTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>TitleBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ToggleButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>FrameTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>MenuTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>PopupMenuTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>RadioButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>SliderTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>LabelTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>MenuBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>MenuItemTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paint(class ui::Graphics &,class ui::Component const *)const " (?paint@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>GLCanvasTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ProgressBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ScrollbarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ScrollerTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>TextFieldTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>TitleBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ToggleButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>FrameTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>MenuTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>PopupMenuTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>RadioButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>SliderTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>ButtonTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>LabelTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>MenuBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>MenuItemTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual void __thiscall ui::theme::defaulttheme::ComponentTheme::paintSelection(class ui::Graphics &,class ui::Component const *)const " (?paintSelection@ComponentTheme@defaulttheme@theme@ui@@UBEXAAVGraphics@4@PBVComponent@4@@Z).
+3>MenuBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual class ui::util::Dimension const __thiscall ui::theme::defaulttheme::ComponentTheme::getPreferredSize(class ui::Component const *)const " (?getPreferredSize@ComponentTheme@defaulttheme@theme@ui@@UBE?BVDimension@util@4@PBVComponent@4@@Z).
+3>PopupMenuTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual class ui::util::Dimension const __thiscall ui::theme::defaulttheme::ComponentTheme::getPreferredSize(class ui::Component const *)const " (?getPreferredSize@ComponentTheme@defaulttheme@theme@ui@@UBE?BVDimension@util@4@PBVComponent@4@@Z).
+3>TitleBarTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual class ui::util::Dimension const __thiscall ui::theme::defaulttheme::ComponentTheme::getPreferredSize(class ui::Component const *)const " (?getPreferredSize@ComponentTheme@defaulttheme@theme@ui@@UBE?BVDimension@util@4@PBVComponent@4@@Z).
+3>FrameTheme.obj : error LNK2001: неразрешенный внешний символ "public: virtual class ui::util::Dimension const __thiscall ui::theme::defaulttheme::ComponentTheme::getPreferredSize(class ui::Component const *)const " (?getPreferredSize@ComponentTheme@defaulttheme@theme@ui@@UBE?BVDimension@util@4@PBVComponent@4@@Z).
+3>DefaultTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::CheckBoxTheme::CheckBoxTheme(void)" (??0CheckBoxTheme@defaulttheme@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::DefaultTheme::DefaultTheme(void)" (??0DefaultTheme@theme@ui@@QAE@XZ).
+3>DefaultTheme.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall ui::theme::defaulttheme::DialogTheme::DialogTheme(void)" (??0DialogTheme@defaulttheme@theme@ui@@QAE@XZ) в функции "public: __thiscall ui::theme::DefaultTheme::DefaultTheme(void)" (??0DefaultTheme@theme@ui@@QAE@XZ).
+3>C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\\bin\Release\MUAutoClicker.dll : fatal error LNK1120: неразрешенных внешних элементов: 28
+3>Сборка проекта "ClickerDll.vcxproj" завершена с ошибкой.
+8>------ Сборка начата: проект: LspInstaller, Конфигурация: Release Win32 ------
+8>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(39,5): warning MSB4211: Свойству "IntermediateOutputPath" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+8>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets(30,5): warning MSB4211: Свойству "DebugType" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.BuildSteps.Targets (29,5)".
+8>D:\Visual\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(373,5): warning MSB4211: Свойству "CleanFile" в первый раз присваивается значение, но оно уже было использовано в "D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets (38,5)".
+8>stdafx.cpp
+8>MemoryModule.c
+8>decoder.c
+8>distorm.c
+8>instructions.c
+8>insts.c
+8>mnemonics.c
+8>operands.c
+8>prefix.c
+8>textdefs.c
+8>wstring.c
+8>x86defs.c
+8>ApiHook.cpp
+8>ProcessUtil.cpp
+8>StringUtil.cpp
+8>dllmain.cpp
+8>InstallerServices.cpp
+8>MyGlobals.cpp
+8>MyHooks.cpp
+8>MyLoader.cpp
+8>MyUtils.cpp
+8>D:\Visual\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1363,5): warning MSB8012: TargetPath(C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\LspInstaller\Release\LspInstaller.dll) не соответствует значению свойства выходного файла (C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\bin\Release\LspInstaller.dll) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+8>Запуск 1-го прохода
+8>Поиск библиотек
+8>    Поиск minicrt.lib:
+8>      Найден _memcpy
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен minicrt.lib(memory.obj)
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\kernel32.lib:
+8>      Найден __imp__VirtualProtect@16
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__HeapFree@12
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__VirtualFree@12
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__VirtualAlloc@16
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__LoadLibraryA@4
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__HeapReAlloc@16
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__HeapAlloc@12
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__GetProcAddress@8
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__GetProcessHeap@0
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__FreeLibrary@4
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__lstrcmpiA@8
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__IsBadReadPtr@8
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__GetTickCount@0
+8>        Имеются ссылки в MemoryModule.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__Beep@8
+8>        Имеются ссылки в ApiHook.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__OpenProcess@12
+8>        Имеются ссылки в MyLoader.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__CloseHandle@4
+8>        Имеются ссылки в MyLoader.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__CreateRemoteThread@28
+8>        Имеются ссылки в MyLoader.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__WaitForSingleObject@8
+8>        Имеются ссылки в MyLoader.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__lstrcpyA@8
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__GetModuleHandleA@4
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__CreateFileA@28
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__GetFileSize@8
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__SetFilePointer@16
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__ReadFile@20
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__TerminateProcess@8
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __imp__GetCurrentProcess@0
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __IMPORT_DESCRIPTOR_KERNEL32
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден __NULL_IMPORT_DESCRIPTOR
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>      Найден KERNEL32_NULL_THUNK_DATA
+8>        Имеются ссылки в kernel32.lib(KERNEL32.dll)
+8>        Загружен kernel32.lib(KERNEL32.dll)
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\user32.lib:
+8>      Найден __imp__WindowFromDC@4
+8>        Имеются ссылки в MyHooks.obj
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден __imp__GetWindowRect@8
+8>        Имеются ссылки в MyHooks.obj
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден __imp__GetShellWindow@0
+8>        Имеются ссылки в MyHooks.obj
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден __imp__FindWindowA@8
+8>        Имеются ссылки в MyLoader.obj
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден __imp__GetWindowThreadProcessId@8
+8>        Имеются ссылки в MyLoader.obj
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден __imp__SetForegroundWindow@4
+8>        Имеются ссылки в MyLoader.obj
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден __imp__GetWindowLongA@8
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден __imp__IsWindow@4
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден __imp__GetWindowTextW@12
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден __IMPORT_DESCRIPTOR_USER32
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Загружен user32.lib(USER32.dll)
+8>      Найден USER32_NULL_THUNK_DATA
+8>        Имеются ссылки в user32.lib(USER32.dll)
+8>        Загружен user32.lib(USER32.dll)
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\shell32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\psapi.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\gdi32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\winspool.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\comdlg32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\advapi32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\ole32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\oleaut32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\uuid.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\odbc32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\odbccp32.lib:
+8>    Поиск minicrt.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\kernel32.lib:
+8>Поиск библиотек завершен
+8>Поиск библиотек
+8>    Поиск minicrt.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\kernel32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\user32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\shell32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\psapi.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\gdi32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\winspool.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\comdlg32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\advapi32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\ole32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\oleaut32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\uuid.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\odbc32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\odbccp32.lib:
+8>Поиск библиотек завершен
+8>Поиск библиотек
+8>    Поиск minicrt.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\kernel32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\user32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\shell32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\psapi.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\gdi32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\winspool.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\comdlg32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\advapi32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\ole32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\oleaut32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\uuid.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\odbc32.lib:
+8>    Поиск C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\odbccp32.lib:
+8>Поиск библиотек завершен
+8>1-ый проход завершен
+8>    Удален _memcmp из minicrt.lib(memory.obj)
+8>    Удален _memcpy_s из minicrt.lib(memory.obj)
+8>    Удален _memmove из minicrt.lib(memory.obj)
+8>    Удален _memmove_s из minicrt.lib(memory.obj)
+8>Создание кода
+8>Создание кода завершено
+8>Поиск библиотек
+8>    Поиск minicrt.lib:
+8>      Найден __chkstk
+8>        Имеются ссылки в MyUtils.obj
+8>        Загружен minicrt.lib(chkstk.obj)
+8>Поиск библиотек завершен
+8>Неиспользуемые библиотеки:
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\shell32.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\psapi.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\gdi32.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\winspool.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\comdlg32.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\advapi32.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\ole32.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\oleaut32.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\uuid.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\odbc32.lib
+8>  C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\um\x86\odbccp32.lib
+8>Обработка параметров /ORDER
+8>    Объекты внешнего кода не перечислены в файле параметра /ORDER:
+8>        ??_C@_0L@GMPLCCII@user32?4dll@		; MyLoader.obj
+8>        ??_C@_0O@CFCCAJBO@Shell_TrayWnd@		; MyLoader.obj
+8>        HeapAlloc@12		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0BA@LCKAOIML@LdrGetDllHandle@		; ProcessUtil.obj
+8>        ??_C@_0BC@KCCBPNDF@RtlReAllocateHeap@		; ProcessUtil.obj
+8>        ??_C@_06DODLCMMB@REPNZ?5@		; distorm.obj
+8>        ??_C@_0N@LOMLCOFC@LoadLibraryA@		; ProcessUtil.obj
+8>        ReadFile@20		; kernel32.lib(KERNEL32.dll)
+8>        HeapReAlloc@16		; kernel32.lib(KERNEL32.dll)
+8>        VirtualAlloc@16		; kernel32.lib(KERNEL32.dll)
+8>        _imp__GetTickCount@0		; kernel32.lib(KERNEL32.dll)
+8>        __@@_PchSym_@00@UfhvihUslnvUwldmolzwhUoliwlunfCRnzhgviLSBTUoliwlunfCRnzhgviUyfrowUohkrmhgzooviUivovzhvUhgwzucOlyq@4B2008FD98C1DD4		; stdafx.obj
+8>        lstrcmpiA@8		; kernel32.lib(KERNEL32.dll)
+8>        _imp__CloseHandle@4		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0N@FIGJGHFN@LdrUnloadDll@		; MyLoader.obj
+8>        ??_C@_05PFDOMJEF@Sleep@		; ProcessUtil.obj
+8>        ??_C@_0BG@LHIBEKEI@Linkmania?5MU?5Season?52@		; MyUtils.obj
+8>        ??_C@_0M@LKGMJDJK@EnumWindows@		; MyLoader.obj
+8>        _imp__GetShellWindow@0		; user32.lib(USER32.dll)
+8>        ??_C@_0O@MOHFGHHE@ShellExecuteA@		; MyLoader.obj
+8>        ??_C@_02KEGNLNML@?0?5@		; distorm.obj
+8>        ??_C@_0O@JPCFBLPA@FindWindowExW@		; MyLoader.obj
+8>        _imp__VirtualAlloc@16		; kernel32.lib(KERNEL32.dll)
+8>        GetShellWindow@0		; user32.lib(USER32.dll)
+8>        _imp__FreeLibrary@4		; kernel32.lib(KERNEL32.dll)
+8>        lstrcpyA@8		; kernel32.lib(KERNEL32.dll)
+8>        _imp__IsBadReadPtr@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0O@IDLNKOCH@FindWindowExA@		; MyLoader.obj
+8>        ??_C@_0BC@BDBJGNEH@SetWindowsHookExA@		; MyLoader.obj
+8>        ??_C@_0P@LKABJJMO@IsWow64Process@		; MyUtils.obj
+8>        ??_C@_04HLONOPDM@?4dll@		; ApiHook.obj
+8>        ??_C@_0BI@BKMFFNKN@NtAllocateVirtualMemory@		; ProcessUtil.obj
+8>        ??_C@_08PNLNEKOB@kernel32@		; MyUtils.obj
+8>        ??_C@_1BA@GBHGOCBB@?$AAh?$AAt?$AAt?$AAp?$AA?3?$AA?1?$AA?1@		; MyLoader.obj
+8>        memcmp		; minicrt.lib(memory.obj)
+8>        GetProcessHeap@0		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0L@HOFGLFDL@LdrLoadDll@		; MyLoader.obj
+8>        ??_C@_03CMFHJCIF@DB?5@		; distorm.obj
+8>        CreateFileA@28		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0BA@OAPIABOD@WindowFromPoint@		; MyLoader.obj
+8>        ??_C@_0L@EANHMAHB@ws2_32?4dll@		; MyLoader.obj
+8>        FreeLibrary@4		; kernel32.lib(KERNEL32.dll)
+8>        OpenProcess@12		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0M@BLDKPNFN@mswsock?4dll@		; MyLoader.obj
+8>        ??_C@_09FLKFJBLM@ntdll?4dll@		; MyLoader.obj
+8>        _imp__FindWindowA@8		; user32.lib(USER32.dll)
+8>        _imp__GetFileSize@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_06GFCABIIE@TBYTE?5@		; distorm.obj
+8>        WaitForSingleObject@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_06EENACGKI@a2?4dll@		; MyUtils.obj
+8>        _imp__lstrcpyA@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0BH@IODECGKA@CreateProcessInternalW@		; MyLoader.obj
+8>        ??_C@_1M@KKFBDPGM@?$AAp?$AAr?$AAo?$AAx?$AAy@		; MyUtils.obj
+8>        ??_C@_05MAGHEHFB@Inori@		; MyUtils.obj
+8>        ??_C@_0BC@HKDKPPPE@EnumThreadWindows@		; MyLoader.obj
+8>        ??_C@_0BE@NOMFEDAI@NtReadVirtualMemory@		; ProcessUtil.obj
+8>        ??_C@_0O@GINJICOF@MacInitialize@		; MyHooks.obj
+8>        _imp__WaitForSingleObject@8		; kernel32.lib(KERNEL32.dll)
+8>        _imp__GetWindowThreadProcessId@8		; user32.lib(USER32.dll)
+8>        GetWindowTextW@12		; user32.lib(USER32.dll)
+8>        ??_C@_0BI@BLIAECLN@RegisterShellHookWindow@		; MyLoader.obj
+8>        ??_C@_0BK@EGDDIFMK@NtQueryInformationProcess@		; ProcessUtil.obj
+8>        ??_C@_05JOBEKLPN@BYTE?5@		; distorm.obj
+8>        _imp__IsWindow@4		; user32.lib(USER32.dll)
+8>        ??_C@_0L@MIADEDBP@MacStartup@		; MyUtils.obj
+8>        _imp__HeapReAlloc@16		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0L@PPOAHBEC@WSPStartup@		; MyLoader.obj
+8>        LoadLibraryA@4		; kernel32.lib(KERNEL32.dll)
+8>        memset		; minicrt.lib(memory.obj)
+8>        ??_C@_1BI@HEAIIGKD@?$AAm?$AAs?$AAw?$AAs?$AAo?$AAc?$AAk?$AA?4?$AAd?$AAl?$AAl@		; MyLoader.obj
+8>        _imp__SetForegroundWindow@4		; user32.lib(USER32.dll)
+8>        _imp__CreateFileA@28		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0BB@NEAKPPEC@Bootstrapper?4dll@		; MyUtils.obj
+8>        _imp__lstrcmpiA@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_06JMOFLNKF@YWORD?5@		; distorm.obj
+8>        ??_C@_07EGJLEIEB@NtClose@		; ProcessUtil.obj
+8>        ??_C@_0DI@IBELFNGK@?$LI?$CL?$AA?$AA?$AA?$IL?$AA?$ID?x?$AAu?$BI?$LI3?$AA?$AA?$AA?$IL?$AAP?$LI?1?$AA?$AA?$AA?$PP?$BA?$ID?D?$AE?$IJ@		; ApiHook.obj
+8>        ??_C@_0N@JPHIGJOE@ResumeThread@		; ProcessUtil.obj
+8>        IsBadReadPtr@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_19BDAJEHDN@?$AAo?$AAp?$AAe?$AAn@		; MyLoader.obj
+8>        _imp__GetProcAddress@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0BE@KBMHLKEP@NtFreeVirtualMemory@		; ProcessUtil.obj
+8>        ??_C@_0N@MMKCCACD@IsBadReadPtr@		; ProcessUtil.obj
+8>        memcpy_s		; minicrt.lib(memory.obj)
+8>        GetProcAddress@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_1BG@KNJGGOFB@?$AAw?$AAs?$AA2?$AA_?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl@		; MyLoader.obj
+8>        ??_C@_07GPPNHKOM@?5?$DLTAKEN@		; distorm.obj
+8>        memmove_s		; minicrt.lib(memory.obj)
+8>        _imp__OpenProcess@12		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0O@EKNIFGJP@RtlCreateHeap@		; ProcessUtil.obj
+8>        VirtualProtect@16		; kernel32.lib(KERNEL32.dll)
+8>        _imp__GetWindowLongA@8		; user32.lib(USER32.dll)
+8>        ??_C@_07PKJDDPMC@DQWORD?5@		; distorm.obj
+8>        TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+8>        GetTickCount@0		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0M@JEPIJPAL@SwapBuffers@		; InstallerServices.obj
+8>        ??_C@_06JKOMEAKL@DWORD?5@		; distorm.obj
+8>        _imp__GetProcessHeap@0		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_1BG@OILDLIOJ@?$AAu?$AAs?$AAe?$AAr?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl@		; MyLoader.obj
+8>        IsWindow@4		; user32.lib(USER32.dll)
+8>        ??_C@_0M@KOOLNINB@?5?$DLNOT?5TAKEN@		; distorm.obj
+8>        ??_C@_05IMOOOKID@LOCK?5@		; distorm.obj
+8>        ??_C@_0BA@HKDEHBAO@RtlAllocateHeap@		; ProcessUtil.obj
+8>        _imp__GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+8>        _imp__VirtualProtect@16		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0P@DAFGLPJP@SetPixelFormat@		; MyLoader.obj
+8>        ??_C@_0M@GGMMHJAL@FindWindowW@		; MyLoader.obj
+8>        ??_C@_0O@JGCNKEPA@NtOpenProcess@		; ProcessUtil.obj
+8>        ??_C@_0BB@GOHLODMA@EnumChildWindows@		; MyLoader.obj
+8>        ??_C@_07DPICPCLL@Clicker@		; MyUtils.obj
+8>        ??_C@_0BF@HCBMBPOD@NtWriteVirtualMemory@		; ProcessUtil.obj
+8>        _imp__CreateRemoteThread@28		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0BB@HNEJOHCL@GetModuleHandleA@		; ProcessUtil.obj
+8>        ??_C@_0N@CJDAKOMP@GetTopWindow@		; MyLoader.obj
+8>        WindowFromDC@4		; user32.lib(USER32.dll)
+8>        ??_C@_0BE@IIKKNMMA@GetForegroundWindow@		; InstallerServices.obj
+8>        ??_C@_0M@KFDNOLCO@shell32?4dll@		; MyLoader.obj
+8>        GetFileSize@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0P@IGDMCLEE@VirtualProtect@		; ProcessUtil.obj
+8>        _imp__LoadLibraryA@4		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0P@DGIDOA@GetProcAddress@		; ProcessUtil.obj
+8>        ??_C@_0BH@BMLCALEC@ChangeDisplaySettingsA@		; InstallerServices.obj
+8>        ??_C@_0M@HKFEMMNM@FindWindowA@		; MyLoader.obj
+8>        GetWindowThreadProcessId@8		; user32.lib(USER32.dll)
+8>        ??_C@_0M@BBFBOFBP@RtlFreeHeap@		; ProcessUtil.obj
+8>        ??_C@_1O@JHHJPDHH@?$AAs?$AAt?$AAu?$AAd?$AAi?$AAo@		; MyUtils.obj
+8>        ??_C@_0BB@CNHJBCOF@GetAsyncKeyState@		; InstallerServices.obj
+8>        ??_C@_0P@HGJJNGEH@RtlDestroyHeap@		; ProcessUtil.obj
+8>        _imp__GetModuleHandleA@4		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_06KPAKPDMC@QWORD?5@		; distorm.obj
+8>        ??_C@_1BA@DOEADACC@?$AAc?$AAl?$AAi?$AAc?$AAk?$AAe?$AAr@		; MyUtils.obj
+8>        _imp__SetFilePointer@16		; kernel32.lib(KERNEL32.dll)
+8>        SetFilePointer@16		; kernel32.lib(KERNEL32.dll)
+8>        _imp__HeapAlloc@12		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_09EHLGPOCK@GDI32?4dll@		; MyLoader.obj
+8>        memcpy		; minicrt.lib(memory.obj)
+8>        _imp__GetWindowRect@8		; user32.lib(USER32.dll)
+8>        ??_C@_0BH@EDMKDLIP@NtProtectVirtualMemory@		; ProcessUtil.obj
+8>        memmove		; minicrt.lib(memory.obj)
+8>        ??_C@_04COPMDGFE@REP?5@		; distorm.obj
+8>        ??_C@_04HGDFHEMH@Beep@		; ProcessUtil.obj
+8>        ??_C@_0BF@DOHHKAPK@ChildWindowFromPoint@		; MyLoader.obj
+8>        SetForegroundWindow@4		; user32.lib(USER32.dll)
+8>        GetCurrentProcess@0		; kernel32.lib(KERNEL32.dll)
+8>        _imp__HeapFree@12		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_09CGMHJDCO@GetWindow@		; MyLoader.obj
+8>        ??_C@_1O@HMOJLPKG@?$AAp?$AAa?$AAc?$AAk?$AAe?$AAt@		; MyUtils.obj
+8>        _imp__Beep@8		; kernel32.lib(KERNEL32.dll)
+8>        GetModuleHandleA@4		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_1BK@MGMFAEKH@?$AAk?$AAe?$AAr?$AAn?$AAe?$AAl?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl@		; MyLoader.obj
+8>        _imp__VirtualFree@12		; kernel32.lib(KERNEL32.dll)
+8>        VirtualFree@12		; kernel32.lib(KERNEL32.dll)
+8>        _imp__ReadFile@20		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0CD@MPBNFLAM@?$JA?$JA?$JA?$JA?$JA?$JA?$JA?$JAS?$IL?$BN?$AA?$AA?$AA?$AA?$ID?$PL?$AAt?$AH?$FL?$PP?$CF?$AA?$AA?$AA?$AA?$FL?$PP?$CF?$AA@		; ApiHook.obj
+8>        ??_C@_1BK@NBNJEGII@?$AAi?$AAe?$AAx?$AAp?$AAl?$AAo?$AAr?$AAe?$AA?4?$AAe?$AAx?$AAe@		; MyLoader.obj
+8>        ??_C@_0BF@MJPACJIK@NtQueryVirtualMemory@		; ProcessUtil.obj
+8>        ??_C@_05GAGGPBM@WORD?5@		; distorm.obj
+8>        ??_C@_0BL@DDDDHHEJ@U?$IL?l?$PPu?$BA?$PPu?$AM?$PPu?$AIh?$AA?$AA?$AA?$AA?h?$AA?$AA?$AA?$AA?$FN?B?$AM?$AA@		; ApiHook.obj
+8>        ??_C@_0BC@PIBNIJA@SetWindowsHookExW@		; MyLoader.obj
+8>        ??_C@_0O@NCONNCKD@ShellExecuteW@		; MyLoader.obj
+8>        Beep@8		; kernel32.lib(KERNEL32.dll)
+8>        _imp__GetWindowTextW@12		; user32.lib(USER32.dll)
+8>        GetWindowLongA@8		; user32.lib(USER32.dll)
+8>        GetWindowRect@8		; user32.lib(USER32.dll)
+8>        ??_C@_0M@LCNNHNKA@addict2?4dll@		; MyUtils.obj
+8>        CloseHandle@4		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0N@MDJJJHMB@kernel32?4dll@		; MyLoader.obj
+8>        FindWindowA@8		; user32.lib(USER32.dll)
+8>        _imp__TerminateProcess@8		; kernel32.lib(KERNEL32.dll)
+8>        ??_C@_0P@MFBJEBCN@CreateProcessW@		; MyLoader.obj
+8>        _imp__WindowFromDC@4		; user32.lib(USER32.dll)
+8>        HeapFree@12		; kernel32.lib(KERNEL32.dll)
+8>        CreateRemoteThread@28		; kernel32.lib(KERNEL32.dll)
+8>Завершена обработка параметров /ORDER
+8>    Удален "`string'" (??_C@_0DI@IBELFNGK@?$LI?$CL?$AA?$AA?$AA?$IL?$AA?$ID?x?$AAu?$BI?$LI3?$AA?$AA?$AA?$IL?$AAP?$LI?1?$AA?$AA?$AA?$PP?$BA?$ID?D?$AE?$IJ@) из ApiHook.obj
+8>    Удален "`string'" (??_C@_05JOBEKLPN@BYTE?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_05GAGGPBM@WORD?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_06JKOMEAKL@DWORD?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_06KPAKPDMC@QWORD?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_06GFCABIIE@TBYTE?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_07PKJDDPMC@DQWORD?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_06JMOFLNKF@YWORD?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_03CMFHJCIF@DB?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_05IMOOOKID@LOCK?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_04COPMDGFE@REP?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_06DODLCMMB@REPNZ?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_02KEGNLNML@?0?5@) из distorm.obj
+8>    Удален "`string'" (??_C@_07GPPNHKOM@?5?$DLTAKEN@) из distorm.obj
+8>    Удален "`string'" (??_C@_0M@KOOLNINB@?5?$DLNOT?5TAKEN@) из distorm.obj
+8>    Удален "`string'" (??_C@_0BB@GOHLODMA@EnumChildWindows@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0BC@HKDKPPPE@EnumThreadWindows@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0M@LKGMJDJK@EnumWindows@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0M@HKFEMMNM@FindWindowA@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0M@GGMMHJAL@FindWindowW@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0O@IDLNKOCH@FindWindowExA@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0O@JPCFBLPA@FindWindowExW@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_09CGMHJDCO@GetWindow@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0BI@BLIAECLN@RegisterShellHookWindow@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0BA@OAPIABOD@WindowFromPoint@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0BF@DOHHKAPK@ChildWindowFromPoint@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_0N@CJDAKOMP@GetTopWindow@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_1BG@KNJGGOFB@?$AAw?$AAs?$AA2?$AA_?$AA3?$AA2?$AA?4?$AAd?$AAl?$AAl@) из MyLoader.obj
+8>    Удален "`string'" (??_C@_1BI@HEAIIGKD@?$AAm?$AAs?$AAw?$AAs?$AAo?$AAc?$AAk?$AA?4?$AAd?$AAl?$AAl@) из MyLoader.obj
+8>    Удален _memcmp из minicrt.lib(memory.obj)
+8>    Удален _memcpy_s из minicrt.lib(memory.obj)
+8>    Удален _memmove из minicrt.lib(memory.obj)
+8>    Удален _memmove_s из minicrt.lib(memory.obj)
+8>    Удален _prefixes_track_unused из prefix.obj
+8>    Удален "public: __thiscall CPackUtil::CPackUtil(void)" (??0CPackUtil@@QAE@XZ) из MyUtils.obj
+8>    Удален "public: int __thiscall CPackUtil::GetPackedFileSize(int)" (?GetPackedFileSize@CPackUtil@@QAEHH@Z) из MyUtils.obj
+8>    Удален "public: bool __thiscall CPackUtil::DecodeData(char *,int,struct CPackUtil::FileInfo const &)" (?DecodeData@CPackUtil@@QAE_NPADHABUFileInfo@1@@Z) из MyUtils.obj
+8>    Удален "protected: bool __thiscall CPackUtil::CheckMagic(long &,void *)" (?CheckMagic@CPackUtil@@IAE_NAAJPAX@Z) из MyUtils.obj
+8>    Удален "protected: bool __thiscall CPackUtil::ReadPackInfo(long &,void *,struct CPackUtil::PackInfo &)" (?ReadPackInfo@CPackUtil@@IAE_NAAJPAXAAUPackInfo@1@@Z) из MyUtils.obj
+8>    Удален _VirtualProtect@16 из kernel32.lib(KERNEL32.dll)
+8>    Удален _HeapFree@12 из kernel32.lib(KERNEL32.dll)
+8>    Удален _VirtualFree@12 из kernel32.lib(KERNEL32.dll)
+8>    Удален _VirtualAlloc@16 из kernel32.lib(KERNEL32.dll)
+8>    Удален _LoadLibraryA@4 из kernel32.lib(KERNEL32.dll)
+8>    Удален _HeapReAlloc@16 из kernel32.lib(KERNEL32.dll)
+8>    Удален _HeapAlloc@12 из kernel32.lib(KERNEL32.dll)
+8>    Удален _GetProcAddress@8 из kernel32.lib(KERNEL32.dll)
+8>    Удален _GetProcessHeap@0 из kernel32.lib(KERNEL32.dll)
+8>    Удален _FreeLibrary@4 из kernel32.lib(KERNEL32.dll)
+8>    Удален _lstrcmpiA@8 из kernel32.lib(KERNEL32.dll)
+8>    Удален _IsBadReadPtr@8 из kernel32.lib(KERNEL32.dll)
+8>    Удален _GetTickCount@0 из kernel32.lib(KERNEL32.dll)
+8>    Удален _Beep@8 из kernel32.lib(KERNEL32.dll)
+8>    Удален _OpenProcess@12 из kernel32.lib(KERNEL32.dll)
+8>    Удален _CloseHandle@4 из kernel32.lib(KERNEL32.dll)
+8>    Удален _CreateRemoteThread@28 из kernel32.lib(KERNEL32.dll)
+8>    Удален _WaitForSingleObject@8 из kernel32.lib(KERNEL32.dll)
+8>    Удален _lstrcpyA@8 из kernel32.lib(KERNEL32.dll)
+8>    Удален _GetModuleHandleA@4 из kernel32.lib(KERNEL32.dll)
+8>    Удален _CreateFileA@28 из kernel32.lib(KERNEL32.dll)
+8>    Удален _GetFileSize@8 из kernel32.lib(KERNEL32.dll)
+8>    Удален _SetFilePointer@16 из kernel32.lib(KERNEL32.dll)
+8>    Удален _ReadFile@20 из kernel32.lib(KERNEL32.dll)
+8>    Удален _TerminateProcess@8 из kernel32.lib(KERNEL32.dll)
+8>    Удален _GetCurrentProcess@0 из kernel32.lib(KERNEL32.dll)
+8>    Удален _WindowFromDC@4 из user32.lib(USER32.dll)
+8>    Удален _GetWindowRect@8 из user32.lib(USER32.dll)
+8>    Удален _GetShellWindow@0 из user32.lib(USER32.dll)
+8>    Удален _FindWindowA@8 из user32.lib(USER32.dll)
+8>    Удален _GetWindowThreadProcessId@8 из user32.lib(USER32.dll)
+8>    Удален _SetForegroundWindow@4 из user32.lib(USER32.dll)
+8>    Удален _GetWindowLongA@8 из user32.lib(USER32.dll)
+8>    Удален _IsWindow@4 из user32.lib(USER32.dll)
+8>    Удален _GetWindowTextW@12 из user32.lib(USER32.dll)
+8>Запуск 2-го прохода
+8>     * CIL library *(* CIL module *)
+8>     minicrt.lib(chkstk.obj)
+8>     minicrt.lib(memory.obj)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     kernel32.lib(KERNEL32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>     user32.lib(USER32.dll)
+8>2-ой проход завершен
+8>LspInstaller.vcxproj -> C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\LspInstaller\Release\LspInstaller.dll
+8> Том в устройстве C не имеет метки.
+8>Файл не найден
+8> Серийный номер тома: 1A81-D5A3
 8>
-8>СБОЙ построения.
+8> Содержимое папки C:\Users\HOME\Downloads\LordOfMU2-master (1)\LordOfMU2-master\build\LspInstaller\Release
 8>
-8>Затраченное время: 00:00:02.35
-========== Перестроение всех: успешно: 4, с ошибками: 4, пропущено: 0 ==========
+8>Done.
+8>
+8>Сборка проекта "LspInstaller.vcxproj" завершена.
+========== Сборка: успешно: 5, с ошибками: 3, без изменений: 0, пропущено: 0 ==========
