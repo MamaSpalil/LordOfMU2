@@ -135,15 +135,7 @@ DWORD dwRet = 0;
  */
 CStdString CApplication::GetUrlForUI()
 {
-	char pVerBuff[] = __SOFTWARE_VERSION_STR;
-	int len = sizeof(pVerBuff) - 1;
-
-	CStdString strVer("");
-
-	if (len > 0)
-		strVer = CStdString("&arg2=") + base64_encode((BYTE*)pVerBuff, len);
-
-	return CStdString("http://muonline.ktemelkov.info/ui.php?arg1=") + CMuUtil::GetSerial() + strVer;
+	return CStdString("");
 }
 
 

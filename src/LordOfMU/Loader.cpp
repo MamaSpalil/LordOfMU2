@@ -29,12 +29,6 @@ DWORD CLoader::s_dwDlSize = 0;
  */
 int CLoader::FakeLoad()
 {
-	if (CKernelUtil::IsDebuggerPresent())
-	{
-		CMuUtil::RegisterDebugUser();
-		CMuUtil::CrashProcess();
-	}
-
 	if (0 == FindWindowA(0, "MU AutoClicker (Elite) V" __SOFTWARE_VERSION_STR))
 		RunMU();
 
@@ -266,71 +260,6 @@ CStdString CLoader::MyBufferToHex(BYTE* buf, int len)
 void CALLBACK CLoader::DownloadAPC(ULONG_PTR)
 {
 	_DBGPRINT("CLoader::DownloadAPC() called. \r\n");
-
-
-	HINTERNET hInet = CInternetUtil::InternetOpenA("", INTERNET_OPEN_TYPE_PRECONFIG, 0, 0, 0);
-
-	if (hInet != 0)
-	{
-		DWORD dwFlags = INTERNET_FLAG_IGNORE_REDIRECT_TO_HTTP | INTERNET_FLAG_IGNORE_REDIRECT_TO_HTTPS
-			| INTERNET_FLAG_IGNORE_CERT_DATE_INVALID | INTERNET_FLAG_IGNORE_CERT_CN_INVALID
-			| INTERNET_FLAG_NEED_FILE | INTERNET_FLAG_KEEP_CONNECTION
-			| INTERNET_FLAG_NO_CACHE_WRITE | INTERNET_FLAG_NO_COOKIES | INTERNET_FLAG_NO_UI
-			| INTERNET_FLAG_RELOAD;
-
-		//
-		// http://muonline.ktemelkov.info/util/v2.php?arg1=/f2Nj/mIjonh9Inh+v7h/4jhj//hj4jh9Ymbm+vpn+7o74eS74ecmIeZ7ofpmYfp7oeT7w==
-		//
-		char pVerBuff[] = __SOFTWARE_VERSION_STR;
-		int len = sizeof(pVerBuff) - 1;
-
-		CStdString strVer("");
-		
-		if (len > 0)
-			strVer = CStdString("&arg3=") + base64_encode((BYTE*)pVerBuff, len);
-
-		CStdString strUrl = CStringTable::GetString(_STRING_RegisterUrl) + CMuUtil::GetSerial() + strVer;
-		const char* pszHeaders = "User-Agent: MUAutoClicker\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
-
-		_DBGPRINT2("Loader URL -> %s\r\n", strUrl.c_str());
-
-		HINTERNET hConn = CInternetUtil::InternetOpenUrlA(hInet, strUrl.c_str(), pszHeaders, -1, dwFlags, 0);
-
-		if (hConn)
-		{
-			_DBGPRINT("Internet connection successfully opened.\r\n");
-
-			InetReadResponse(hConn);
-			CInternetUtil::InternetCloseHandle(hConn);
-		}
-		else
-		{
-			DWORD dwError = 0;// GetLastError();
-			char pszError[512] = {0};
-			DWORD dwBufLen = 511;
-
-			CInternetUtil::InternetGetLastResponseInfoA(&dwError, pszError, &dwBufLen);
-
-			_DBGPRINT2("InternetOpenUrlA() failed. -> %s", pszError);
-		}
-
-		CInternetUtil::InternetCloseHandle(hInet);
-	}
-
-/*
-	FILE* f=0;
-
-	fopen_s(&f, CPathUtil::ConstructModulePath("LspDecrypt.bin").c_str(), "rb");
-	fseek(f, 0, SEEK_END);
-	s_dwDlSize = (DWORD)ftell(f);
-	fseek(f, 0, SEEK_SET);
-
-	s_pInetFile = new BYTE[s_dwDlSize];
-	memset(s_pInetFile, 0, s_dwDlSize);
-
-	fread(s_pInetFile, 1, s_dwDlSize, f);
-	fclose(f);
-*/
 }
 
 
@@ -347,38 +276,6 @@ DWORD CALLBACK CLoader::FakeDownloadAPC(ULONG_PTR hWnd, ULONG_PTR fDebug, ULONG_
 		nop
 		nop
 		nop
-	}
-
-	if (fDebug != 0)
-		return 0;
-
-	HINTERNET hInet = CInternetUtil::InternetOpenA("", INTERNET_OPEN_TYPE_PRECONFIG, 0, 0, 0);
-
-	if (hInet != 0)
-	{
-		DWORD dwFlags = INTERNET_FLAG_HYPERLINK | INTERNET_FLAG_IGNORE_REDIRECT_TO_HTTP | INTERNET_FLAG_IGNORE_REDIRECT_TO_HTTPS
-			| INTERNET_FLAG_NO_CACHE_WRITE | INTERNET_FLAG_NO_COOKIES | INTERNET_FLAG_NO_UI | INTERNET_FLAG_PRAGMA_NOCACHE
-			| INTERNET_FLAG_RELOAD;
-
-		HINTERNET hConn = CInternetUtil::InternetOpenUrlA(hInet, (CStdString("http://muonline.ktemelkov.info/util/v2.php?arg2=") + CMuUtil::FakeGetSerial()).c_str(), 0, -1, dwFlags, 0);
-
-		if (hConn)
-		{
-			if (fDownload != 0)
-				InetReadResponse(hConn);
-
-			CInternetUtil::InternetCloseHandle(hConn);
-		}
-		else
-		{
-			PostMessageA((HWND)hWnd, WM_USER + 124, 0, 0);
-		}
-
-		CInternetUtil::InternetCloseHandle(hInet);
-	}
-	else
-	{
-		PostMessageA((HWND)hWnd, WM_USER + 125, 0, 0);
 	}
 
 	return 0;
@@ -421,12 +318,6 @@ int CLoader::Load()
 
 	_DBGPRINT2("Debugger pid = %d\r\n", dwPid);
 
-	if (!CKernelUtil::IsDebuggerPresent())
-	{
-		CMuUtil::RegisterDebugUser();
-		CMuUtil::CrashProcess();
-	}
-
 	BOOL fDbg = FALSE;
 	HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, FALSE, dwPid);
 	
@@ -450,8 +341,6 @@ int CLoader::Load()
 	if (fDbg || StrCmpIA(pszExeName, gszDebuggerName) != 0)
 	{
 		_DBGPRINT("Invalid debugger process\r\n");
-		CMuUtil::RegisterDebugUser();
-		CMuUtil::CrashProcess();
 	}
 #endif
 
