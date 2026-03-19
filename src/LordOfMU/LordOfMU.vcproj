@@ -66,7 +66,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="libcmtd.lib LIBCPMTd.LIB libvcruntimed.lib libucrtd.lib kernel32.lib user32.lib psapi.lib ole32.lib comctl32.lib MSCorEE.lib Iphlpapi.lib"
+				AdditionalDependencies="libcmtd.lib LIBCPMTd.LIB kernel32.lib user32.lib psapi.lib ole32.lib comctl32.lib MSCorEE.lib Iphlpapi.lib"
 				OutputFile="$(SolutionDir)bin\$(ConfigurationName)\MUAutoClicker.exe"
 				LinkIncremental="1"
 				GenerateManifest="false"
@@ -160,8 +160,8 @@
 				IgnoreImportLibrary="true"
 				LinkLibraryDependencies="false"
 				UseUnicodeResponseFiles="false"
-				AdditionalDependencies="libcmt.lib LIBCPMT.LIB libvcruntime.lib libucrt.lib kernel32.lib user32.lib psapi.lib ole32.lib comctl32.lib MSCorEE.lib Iphlpapi.lib"
-				OutputFile="$(SolutionDir)bin\$(ConfigurationName)\MUAutoClicker.exe.o"
+				AdditionalDependencies="libcmt.lib LIBCPMT.LIB kernel32.lib user32.lib psapi.lib ole32.lib comctl32.lib MSCorEE.lib Iphlpapi.lib"
+				OutputFile="$(SolutionDir)bin\$(ConfigurationName)\MUAutoClicker.exe"
 				LinkIncremental="1"
 				GenerateManifest="false"
 				UACExecutionLevel="2"
